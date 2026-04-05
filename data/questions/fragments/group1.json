@@ -1,0 +1,832 @@
+[
+  {
+    "question_id": "q_bigfive_001",
+    "text": "友達の家で見覚えのない本を見つけたら、まず手に取って開いてみる",
+    "loadings": {
+      "openness": 0.7,
+      "openness_ideas": 0.5,
+      "curiosity_breadth": 0.4,
+      "boundary_firmness": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_002",
+    "text": "美術館で「よくわからない現代アート」の前で、しばらく立ち止まって考えたくなる",
+    "loadings": {
+      "openness": 0.6,
+      "openness_aesthetic": 0.8,
+      "tolerance_ambiguity": 0.4,
+      "pop_vs_avant_garde": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_bigfive_003",
+    "text": "詩集や哲学書のような、答えのない本をゆっくり読むのが好き",
+    "loadings": {
+      "openness_aesthetic": 0.7,
+      "openness_ideas": 0.6,
+      "abstract_vs_concrete": 0.4,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_004",
+    "text": "出発前日までに荷物を詰め終えていないと落ち着かない",
+    "loadings": {
+      "conscientiousness": 0.7,
+      "planning_vs_spontaneity": 0.6,
+      "neuroticism_anxiety": 0.3,
+      "risk_tolerance": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_bigfive_005",
+    "text": "机の上に物が散らかっていると、作業を始める前にまず片付けたくなる",
+    "loadings": {
+      "conscientiousness_order": 0.8,
+      "conscientiousness": 0.4,
+      "symmetry_preference": 0.3,
+      "minimalism_vs_maximalism": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_bigfive_006",
+    "text": "「ちょっとだけ遅れる」と言われると、相手への信頼が少し揺らぐ",
+    "loadings": {
+      "conscientiousness_duty": 0.7,
+      "reciprocity_strictness": 0.4,
+      "trust_threshold": -0.3,
+      "forgiveness_tendency": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_007",
+    "text": "初対面の集まりで、自分から話題を振っていく方だ",
+    "loadings": {
+      "extraversion": 0.8,
+      "extraversion_assertiveness": 0.5,
+      "social_energy_recovery": 0.4,
+      "self_disclosure": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_bigfive_008",
+    "text": "会議で全員の意見が揃いそうなとき、あえて違う見方を口にする",
+    "loadings": {
+      "extraversion_assertiveness": 0.7,
+      "conflict_style_confront": 0.5,
+      "convergent_vs_divergent": -0.4,
+      "agreeableness": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_009",
+    "text": "ジェットコースターや絶叫系の乗り物が、今でもワクワクする",
+    "loadings": {
+      "extraversion_excitement": 0.8,
+      "risk_tolerance": 0.5,
+      "novelty_seeking": 0.4,
+      "physical_vs_intellectual_stimulation": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_010",
+    "text": "道で困っていそうな人がいたら、声をかける方だ",
+    "loadings": {
+      "agreeableness": 0.7,
+      "care_vs_autonomy": 0.5,
+      "agreeableness_empathy": 0.5,
+      "boundary_firmness": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_011",
+    "text": "映画のラストシーンで、登場人物の気持ちに引きずられて余韻が長く残る",
+    "loadings": {
+      "agreeableness_empathy": 0.8,
+      "emotional_expressiveness": 0.4,
+      "melancholy_affinity": 0.4,
+      "neuroticism_volatility": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_012",
+    "text": "自分の成果を話すのは、どこか気恥ずかしくてつい控えめに言ってしまう",
+    "loadings": {
+      "agreeableness_modesty": 0.8,
+      "extraversion_assertiveness": -0.4,
+      "self_disclosure": -0.3,
+      "social_approval_need": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_013",
+    "text": "夜、布団に入ってから今日の失敗や明日の不安を何度も反芻してしまう",
+    "loadings": {
+      "neuroticism": 0.8,
+      "neuroticism_anxiety": 0.7,
+      "metacognition": 0.3,
+      "morning_vs_night": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_bigfive_014",
+    "text": "予定が急に変わると、頭の中で段取りを組み直すのにしばらく時間がかかる",
+    "loadings": {
+      "neuroticism_anxiety": 0.6,
+      "planning_vs_spontaneity": 0.5,
+      "tolerance_ambiguity": -0.4,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_015",
+    "text": "嬉しいときも悲しいときも、その波がわりと大きく自分を揺らす",
+    "loadings": {
+      "neuroticism_volatility": 0.8,
+      "emotional_expressiveness": 0.5,
+      "neuroticism": 0.4,
+      "analytical_vs_intuitive": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_016",
+    "text": "同じ店・同じメニューでも、気に入ったものなら何度でも繰り返して満足できる",
+    "loadings": {
+      "openness": -0.6,
+      "novelty_seeking": -0.6,
+      "autotelic_flow": 0.3,
+      "frugality_vs_indulgence": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_017",
+    "text": "街中で、誰も踏み入っていない細い路地を見ると入ってみたくなる",
+    "loadings": {
+      "openness": 0.7,
+      "curiosity_breadth": 0.5,
+      "novelty_seeking": 0.5,
+      "risk_tolerance": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_018",
+    "text": "大勢の飲み会の後は、少し一人になる時間がないと回復しない",
+    "loadings": {
+      "extraversion": -0.7,
+      "social_energy_recovery": -0.8,
+      "group_size_preference": -0.4,
+      "neuroticism": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_bigfive_019",
+    "text": "本棚やクローゼットの中身は、ジャンルや色でちゃんと並んでいてほしい",
+    "loadings": {
+      "conscientiousness_order": 0.8,
+      "symmetry_preference": 0.4,
+      "pattern_recognition": 0.3,
+      "aesthetic_complexity": -0.2
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_020",
+    "text": "人に何か頼まれると、多少無理しても引き受けてしまいがち",
+    "loadings": {
+      "agreeableness": 0.6,
+      "boundary_firmness": -0.6,
+      "care_vs_autonomy": 0.4,
+      "conscientiousness_duty": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_021",
+    "text": "空いた時間があると、「何かやらなきゃ」とそわそわしてしまう",
+    "loadings": {
+      "neuroticism_anxiety": 0.5,
+      "achievement_drive": 0.5,
+      "autotelic_flow": 0.3,
+      "hedonic_vs_eudaimonic": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_022",
+    "text": "議論になったとき、相手を言い負かすより、落としどころを探す方が気持ちいい",
+    "loadings": {
+      "agreeableness": 0.6,
+      "conflict_style_confront": -0.4,
+      "competition_vs_cooperation": -0.5,
+      "extraversion_assertiveness": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_bigfive_023",
+    "text": "毎朝同じ時間に起きて、同じ順番で支度する生活にむしろ安心を感じる",
+    "loadings": {
+      "conscientiousness": 0.6,
+      "security_vs_freedom": -0.6,
+      "novelty_seeking": -0.4,
+      "planning_vs_spontaneity": 0.5
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+
+  {
+    "question_id": "q_cognitive_001",
+    "text": "大事な決断のとき、直感でピンと来た方を信じる",
+    "loadings": {
+      "analytical_vs_intuitive": -0.8,
+      "speed_vs_accuracy": 0.4,
+      "tolerance_ambiguity": 0.3,
+      "metacognition": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_002",
+    "text": "何かを買うとき、スペック表やレビューを細かく比較してから決める",
+    "loadings": {
+      "analytical_vs_intuitive": 0.7,
+      "detail_vs_big_picture": 0.6,
+      "speed_vs_accuracy": -0.4,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_003",
+    "text": "映画を観た直後、個別のシーンより「全体としてどう感じたか」から語り始める",
+    "loadings": {
+      "detail_vs_big_picture": -0.7,
+      "sequential_vs_holistic": -0.6,
+      "abstract_vs_concrete": 0.4,
+      "verbal_vs_visual": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_004",
+    "text": "新しい家電を買ったら、まず説明書を頭から順に読むタイプだ",
+    "loadings": {
+      "systematic_vs_exploratory": 0.8,
+      "sequential_vs_holistic": 0.5,
+      "conscientiousness": 0.3,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_005",
+    "text": "知らないアプリを触るとき、とりあえずいろいろタップして感覚で覚える",
+    "loadings": {
+      "systematic_vs_exploratory": -0.8,
+      "novelty_seeking": 0.3,
+      "tolerance_ambiguity": 0.4,
+      "speed_vs_accuracy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_006",
+    "text": "頭の中で考えを整理するとき、文章より図やイメージで組み立てる",
+    "loadings": {
+      "verbal_vs_visual": -0.8,
+      "organic_vs_geometric": 0.2,
+      "abstract_vs_concrete": -0.2,
+      "sequential_vs_holistic": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_007",
+    "text": "誰かの話を聞きながら、心の中でそれを言葉に置き換えてメモするように聞いている",
+    "loadings": {
+      "verbal_vs_visual": 0.7,
+      "metacognition": 0.5,
+      "analytical_vs_intuitive": 0.3,
+      "detail_vs_big_picture": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_008",
+    "text": "具体的な事例を聞くより、先に「要するにどういう仕組み？」を知りたくなる",
+    "loadings": {
+      "abstract_vs_concrete": 0.8,
+      "openness_ideas": 0.5,
+      "cognitive_closure_need": 0.3,
+      "detail_vs_big_picture": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_009",
+    "text": "アイデア出しの場では、突飛でもいいから数を出す方が楽しい",
+    "loadings": {
+      "convergent_vs_divergent": -0.8,
+      "openness": 0.5,
+      "novelty_seeking": 0.4,
+      "tolerance_ambiguity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_010",
+    "text": "選択肢がいくつもあると疲れるので、早めに一つに絞りたい",
+    "loadings": {
+      "convergent_vs_divergent": 0.7,
+      "cognitive_closure_need": 0.7,
+      "tolerance_ambiguity": -0.5,
+      "speed_vs_accuracy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_011",
+    "text": "複数のタスクを同時並行で進めるより、一つずつ片付けたい",
+    "loadings": {
+      "sequential_vs_holistic": 0.8,
+      "conscientiousness": 0.4,
+      "autotelic_flow": 0.3,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_012",
+    "text": "多少雑でもいいから、まず手を動かして形にしてみる方が性に合う",
+    "loadings": {
+      "speed_vs_accuracy": 0.8,
+      "systematic_vs_exploratory": -0.5,
+      "planning_vs_spontaneity": -0.4,
+      "risk_tolerance": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_013",
+    "text": "日常の中で繰り返し現れる数字や模様に、つい目がいく",
+    "loadings": {
+      "pattern_recognition": 0.8,
+      "detail_vs_big_picture": 0.4,
+      "openness": 0.3,
+      "symmetry_preference": 0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_014",
+    "text": "自分が今どう感じているか、その感情がどこから来ているかをよく観察している",
+    "loadings": {
+      "metacognition": 0.9,
+      "existentialism": 0.4,
+      "emotional_expressiveness": -0.2,
+      "analytical_vs_intuitive": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_015",
+    "text": "結論が出ないまま話が終わるのは、それはそれで面白い",
+    "loadings": {
+      "tolerance_ambiguity": 0.9,
+      "cognitive_closure_need": -0.7,
+      "openness_ideas": 0.4,
+      "convergent_vs_divergent": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_016",
+    "text": "「で、結局どっちなの？」と早く決めたくなる性分だ",
+    "loadings": {
+      "cognitive_closure_need": 0.9,
+      "tolerance_ambiguity": -0.7,
+      "speed_vs_accuracy": 0.4,
+      "convergent_vs_divergent": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_017",
+    "text": "本や記事を読むとき、1ページ目から順に読まず、気になる章から飛び飛びに読む",
+    "loadings": {
+      "sequential_vs_holistic": -0.7,
+      "systematic_vs_exploratory": -0.5,
+      "curiosity_breadth": 0.4,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_018",
+    "text": "抽象的な図式（ベン図・マトリクス・構造図）で世界を整理すると気持ちがいい",
+    "loadings": {
+      "abstract_vs_concrete": 0.7,
+      "pattern_recognition": 0.5,
+      "organic_vs_geometric": 0.4,
+      "openness_ideas": 0.4
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_019",
+    "text": "道を覚えるとき、地図の全体像より「次の角を右」と順番で覚える方がしっくり来る",
+    "loadings": {
+      "sequential_vs_holistic": 0.7,
+      "detail_vs_big_picture": 0.5,
+      "verbal_vs_visual": 0.3,
+      "abstract_vs_concrete": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_020",
+    "text": "「なんか引っかかる」という感覚を、理由がわからなくても大事にする",
+    "loadings": {
+      "analytical_vs_intuitive": -0.7,
+      "metacognition": 0.4,
+      "tolerance_ambiguity": 0.4,
+      "spirituality": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_cognitive_021",
+    "text": "議論の最中、自分の思考がどう流れているかをもう一人の自分が見ている感覚がある",
+    "loadings": {
+      "metacognition": 0.9,
+      "existentialism": 0.4,
+      "abstract_vs_concrete": 0.3,
+      "self_disclosure": -0.2
+    },
+    "difficulty": 0.5,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_022",
+    "text": "同じような構造を持つ別ジャンルの話（音楽と料理、数学と言語など）の類似に興奮する",
+    "loadings": {
+      "pattern_recognition": 0.8,
+      "abstract_vs_concrete": 0.5,
+      "openness_ideas": 0.6,
+      "curiosity_breadth": 0.4
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_cognitive_023",
+    "text": "100点の答えを出すより、60点でも早く出す方が価値があると思う",
+    "loadings": {
+      "speed_vs_accuracy": 0.8,
+      "pragmatism_vs_idealism": 0.5,
+      "conscientiousness": -0.3,
+      "risk_tolerance": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+
+  {
+    "question_id": "q_values_001",
+    "text": "古くから受け継がれてきた行事や作法には、それだけで守る価値があると思う",
+    "loadings": {
+      "tradition_vs_innovation": -0.8,
+      "sanctity_vs_openness": 0.4,
+      "authority_vs_autonomy": 0.3,
+      "nostalgia_affinity": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_002",
+    "text": "「昔からこうだから」という理由だけで続けているものは、一度見直すべきだ",
+    "loadings": {
+      "tradition_vs_innovation": 0.7,
+      "authority_vs_autonomy": -0.4,
+      "scientific_worldview": 0.3,
+      "pragmatism_vs_idealism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_003",
+    "text": "たとえ集団の和を乱しても、自分が正しいと思うことは言うべきだ",
+    "loadings": {
+      "individual_vs_collective": 0.8,
+      "conflict_style_confront": 0.5,
+      "extraversion_assertiveness": 0.4,
+      "loyalty_vs_universalism": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_004",
+    "text": "安定した毎日より、先が読めない自由な暮らしの方に惹かれる",
+    "loadings": {
+      "security_vs_freedom": 0.8,
+      "risk_tolerance": 0.5,
+      "novelty_seeking": 0.4,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_005",
+    "text": "みんなで分ける場面では、貢献が違っても同じ量にする方が気持ちがいい",
+    "loadings": {
+      "fairness_vs_efficiency": 0.7,
+      "meritocracy_vs_equality": -0.8,
+      "competition_vs_cooperation": -0.4,
+      "individual_vs_collective": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_006",
+    "text": "理想を語るより、今ある条件で回る仕組みを作る方に価値を感じる",
+    "loadings": {
+      "pragmatism_vs_idealism": 0.8,
+      "analytical_vs_intuitive": 0.3,
+      "tradition_vs_innovation": -0.2,
+      "meaning_belief": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_007",
+    "text": "相手が困っているとき、頼まれていなくても先回りして手を差し伸べたくなる",
+    "loadings": {
+      "care_vs_autonomy": 0.8,
+      "agreeableness_empathy": 0.5,
+      "boundary_firmness": -0.4,
+      "affiliation_motive": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_008",
+    "text": "身内が困っているなら、多少の筋を曲げてでも味方につく",
+    "loadings": {
+      "loyalty_vs_universalism": 0.8,
+      "moral_absolutism": -0.4,
+      "care_vs_autonomy": 0.4,
+      "fairness_vs_efficiency": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_009",
+    "text": "専門家の意見には、基本的に素人よりも重みを置くべきだと思う",
+    "loadings": {
+      "authority_vs_autonomy": 0.7,
+      "scientific_worldview": 0.5,
+      "individual_vs_collective": -0.3,
+      "trust_threshold": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_010",
+    "text": "「これだけは冗談でも触れてはいけない」と感じる領域が自分の中にある",
+    "loadings": {
+      "sanctity_vs_openness": 0.9,
+      "moral_absolutism": 0.5,
+      "boundary_firmness": 0.4,
+      "humor_style_dry": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_011",
+    "text": "努力や成果に応じて待遇に差がつくのは、むしろ健全なことだ",
+    "loadings": {
+      "meritocracy_vs_equality": 0.8,
+      "fairness_vs_efficiency": -0.5,
+      "competition_vs_cooperation": 0.4,
+      "achievement_drive": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_012",
+    "text": "人との関係は、基本的に協力ベースで成り立つべきで、競争はおまけくらいがいい",
+    "loadings": {
+      "competition_vs_cooperation": -0.8,
+      "agreeableness": 0.4,
+      "meritocracy_vs_equality": -0.3,
+      "care_vs_autonomy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_013",
+    "text": "友人であっても、自分の日記やチャット履歴を覗かれるのは強い抵抗がある",
+    "loadings": {
+      "privacy_sensitivity": 0.9,
+      "boundary_firmness": 0.6,
+      "self_disclosure": -0.4,
+      "trust_threshold": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_014",
+    "text": "SNSに食事や日常を気軽に投稿するのは、別に悪いことじゃない",
+    "loadings": {
+      "privacy_sensitivity": -0.7,
+      "self_disclosure": 0.6,
+      "sanctity_vs_openness": -0.3,
+      "extraversion": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_015",
+    "text": "新しいやり方が効率的だとわかっても、慣れた手順を変えるのにはためらいがある",
+    "loadings": {
+      "tradition_vs_innovation": -0.7,
+      "security_vs_freedom": -0.5,
+      "novelty_seeking": -0.4,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_016",
+    "text": "多少の不便があっても、個人の自由が守られる社会の方がいい",
+    "loadings": {
+      "security_vs_freedom": 0.8,
+      "individual_vs_collective": 0.6,
+      "authority_vs_autonomy": -0.4,
+      "pragmatism_vs_idealism": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_017",
+    "text": "ルールは文脈より、誰に対しても同じように適用されるべきだ",
+    "loadings": {
+      "moral_absolutism": 0.8,
+      "fairness_vs_efficiency": 0.5,
+      "loyalty_vs_universalism": -0.6,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_values_018",
+    "text": "「正解のない問い」をみんなで考え続けることに、それ自体で意味があると思う",
+    "loadings": {
+      "pragmatism_vs_idealism": -0.5,
+      "openness_ideas": 0.6,
+      "tolerance_ambiguity": 0.5,
+      "meaning_belief": 0.4
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_019",
+    "text": "他人のことには、頼まれない限りあまり踏み込まない方が誠実だと思う",
+    "loadings": {
+      "care_vs_autonomy": -0.8,
+      "boundary_firmness": 0.6,
+      "privacy_sensitivity": 0.4,
+      "individual_vs_collective": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_020",
+    "text": "勝ち負けがはっきりつく場面は、どこかで楽しんでいる自分がいる",
+    "loadings": {
+      "competition_vs_cooperation": 0.8,
+      "achievement_drive": 0.5,
+      "extraversion_excitement": 0.3,
+      "power_motive": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_021",
+    "text": "新しい技術やサービスは、まず試してから評価したい",
+    "loadings": {
+      "tradition_vs_innovation": 0.7,
+      "techno_optimism": 0.5,
+      "novelty_seeking": 0.5,
+      "risk_tolerance": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_022",
+    "text": "自分の人生の重要な決断は、人に相談してもいいが、最後は自分で決めたい",
+    "loadings": {
+      "authority_vs_autonomy": -0.8,
+      "individual_vs_collective": 0.5,
+      "determinism_vs_agency": 0.4,
+      "self_disclosure": -0.2
+    },
+    "difficulty": -0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_values_023",
+    "text": "倫理的に「これは絶対にダメ」と言い切れる行為が、いくつかはあると思う",
+    "loadings": {
+      "moral_absolutism": 0.9,
+      "sanctity_vs_openness": 0.6,
+      "tolerance_ambiguity": -0.3,
+      "humanism": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  }
+]

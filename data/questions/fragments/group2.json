@@ -1,0 +1,834 @@
+[
+  {
+    "question_id": "q_motivation_001",
+    "text": "誰にも見せない作業でも、細部まで気になって直してしまう",
+    "loadings": {
+      "intrinsic_motivation": 0.7,
+      "mastery_vs_performance": 0.6,
+      "conscientiousness": 0.4,
+      "autotelic_flow": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_002",
+    "text": "目標は、達成できるかギリギリのラインに置きたい",
+    "loadings": {
+      "achievement_drive": 0.8,
+      "risk_tolerance": 0.4,
+      "novelty_seeking": 0.3,
+      "extraversion_excitement": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_motivation_003",
+    "text": "SNSで投稿したものに反応が来ないと、少し落ち着かない",
+    "loadings": {
+      "social_approval_need": 0.8,
+      "neuroticism": 0.4,
+      "intrinsic_motivation": -0.4
+    },
+    "difficulty": -0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_004",
+    "text": "旅行先は、行ったことのない場所ばかり選びたい",
+    "loadings": {
+      "novelty_seeking": 0.8,
+      "openness": 0.5,
+      "curiosity_breadth": 0.4,
+      "risk_tolerance": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_005",
+    "text": "趣味でも、上達の手応えがないとだんだん面白くなくなる",
+    "loadings": {
+      "mastery_vs_performance": 0.6,
+      "achievement_drive": 0.5,
+      "autotelic_flow": 0.4,
+      "hedonic_vs_eudaimonic": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_006",
+    "text": "集団の中で方針を決める側に回る方が自然だ",
+    "loadings": {
+      "power_motive": 0.7,
+      "leadership_comfort": 0.6,
+      "extraversion_assertiveness": 0.5,
+      "dominance_vs_deference": 0.5
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_motivation_007",
+    "text": "深く付き合える友人が2〜3人いれば、それで十分だと思う",
+    "loadings": {
+      "affiliation_motive": 0.5,
+      "group_size_preference": -0.6,
+      "extraversion": -0.4,
+      "curiosity_breadth": -0.3
+    },
+    "difficulty": -0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_008",
+    "text": "次から次へと興味の対象が移っていくのが自分らしい",
+    "loadings": {
+      "curiosity_breadth": 0.8,
+      "novelty_seeking": 0.6,
+      "openness": 0.4,
+      "autotelic_flow": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_009",
+    "text": "時間を忘れて何かに没頭している時間が、一番生きている実感がある",
+    "loadings": {
+      "autotelic_flow": 0.9,
+      "intrinsic_motivation": 0.5,
+      "hedonic_vs_eudaimonic": -0.3,
+      "existentialism": 0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_010",
+    "text": "苦労して得た達成感より、今この瞬間の気持ちよさを選びたい",
+    "loadings": {
+      "hedonic_vs_eudaimonic": 0.8,
+      "achievement_drive": -0.4,
+      "frugality_vs_indulgence": 0.4,
+      "mastery_vs_performance": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_011",
+    "text": "人前で褒められるより、誰にも知られず自分が納得する方がうれしい",
+    "loadings": {
+      "intrinsic_motivation": 0.7,
+      "social_approval_need": -0.7,
+      "agreeableness_modesty": 0.5,
+      "mastery_vs_performance": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_motivation_012",
+    "text": "「同じ毎日」が続くと、理由もなく息苦しくなってくる",
+    "loadings": {
+      "novelty_seeking": 0.7,
+      "extraversion_excitement": 0.5,
+      "neuroticism": 0.3,
+      "security_vs_freedom": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_013",
+    "text": "誰かと一緒にいる時間より、一人で何かしている時間の方が満たされる",
+    "loadings": {
+      "affiliation_motive": -0.7,
+      "extraversion": -0.5,
+      "social_energy_recovery": -0.5,
+      "intrinsic_motivation": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_014",
+    "text": "一つの分野を何年も掘り続けるのが向いている",
+    "loadings": {
+      "curiosity_breadth": -0.7,
+      "autotelic_flow": 0.5,
+      "mastery_vs_performance": 0.5,
+      "conscientiousness": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_015",
+    "text": "自分が正しいと思ったことは、誰に言われなくても動き始める",
+    "loadings": {
+      "intrinsic_motivation": 0.7,
+      "extraversion_assertiveness": 0.4,
+      "authority_vs_autonomy": -0.4,
+      "achievement_drive": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_016",
+    "text": "「すごいね」と言われるより「わかってくれた」と言われる方が嬉しい",
+    "loadings": {
+      "affiliation_motive": 0.7,
+      "social_approval_need": -0.3,
+      "agreeableness_empathy": 0.4,
+      "self_disclosure": 0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_017",
+    "text": "表に立って影響力を持つことには、正直あまり興味がない",
+    "loadings": {
+      "power_motive": -0.8,
+      "leadership_comfort": -0.5,
+      "agreeableness_modesty": 0.4,
+      "social_approval_need": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_018",
+    "text": "人生は、楽しいことの総量で測るのが一番正直だと思う",
+    "loadings": {
+      "hedonic_vs_eudaimonic": 0.8,
+      "meaning_belief": -0.4,
+      "existentialism": -0.3,
+      "frugality_vs_indulgence": 0.3
+    },
+    "difficulty": 0.4,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_019",
+    "text": "退屈な安全より、少し危うい面白さを選びがちだ",
+    "loadings": {
+      "novelty_seeking": 0.6,
+      "risk_tolerance": 0.7,
+      "extraversion_excitement": 0.5,
+      "security_vs_freedom": 0.4
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_020",
+    "text": "難しい問題ほど、解けそうな予感がすると体が前のめりになる",
+    "loadings": {
+      "achievement_drive": 0.6,
+      "intrinsic_motivation": 0.5,
+      "openness_ideas": 0.5,
+      "autotelic_flow": 0.4
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_motivation_021",
+    "text": "誰かと深く親密になることに、ほんの少し抵抗がある",
+    "loadings": {
+      "affiliation_motive": -0.6,
+      "boundary_firmness": 0.5,
+      "self_disclosure": -0.5,
+      "trust_threshold": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_022",
+    "text": "何のためにやるかが腹落ちしないと、どうしても手が動かない",
+    "loadings": {
+      "intrinsic_motivation": 0.6,
+      "meaning_belief": 0.5,
+      "metacognition": 0.4,
+      "hedonic_vs_eudaimonic": -0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_motivation_023",
+    "text": "新しいガジェットや流行りのサービスは、とりあえず触ってみたい",
+    "loadings": {
+      "novelty_seeking": 0.7,
+      "curiosity_breadth": 0.5,
+      "techno_optimism": 0.4,
+      "openness": 0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.2
+  },
+
+  {
+    "question_id": "q_aesthetic_001",
+    "text": "寂れた温泉街の夜、湯けむりが街灯に混じる風景に強く惹かれる",
+    "loadings": {
+      "nostalgia_affinity": 0.8,
+      "melancholy_affinity": 0.6,
+      "wabi_sabi": 0.5,
+      "bright_vs_dark": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_002",
+    "text": "磨き上げた能面より、ひび割れた古い木の仏像の方が美しいと感じる",
+    "loadings": {
+      "wabi_sabi": 0.8,
+      "rough_vs_polished": -0.6,
+      "craft_appreciation": 0.5,
+      "classical_vs_contemporary": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_aesthetic_003",
+    "text": "何もない真っ白な部屋にずっと居ても、むしろ心地よい",
+    "loadings": {
+      "minimalism_vs_maximalism": -0.8,
+      "ornate_vs_austere": 0.6,
+      "aesthetic_complexity": -0.5,
+      "warm_vs_cool_palette": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_004",
+    "text": "物で埋め尽くされた古道具屋の雑然とした棚に、時間を忘れる",
+    "loadings": {
+      "minimalism_vs_maximalism": 0.7,
+      "aesthetic_complexity": 0.6,
+      "nostalgia_affinity": 0.5,
+      "craft_appreciation": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_005",
+    "text": "誰もが良いと言うものより、少し違和感のあるものの方が気になる",
+    "loadings": {
+      "pop_vs_avant_garde": 0.8,
+      "openness_aesthetic": 0.5,
+      "tradition_vs_innovation": 0.4,
+      "novelty_seeking": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_aesthetic_006",
+    "text": "真夏の真昼のプールより、冬の夕暮れの海辺に惹かれる",
+    "loadings": {
+      "melancholy_affinity": 0.7,
+      "bright_vs_dark": 0.5,
+      "warm_vs_cool_palette": 0.5,
+      "nostalgia_affinity": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_007",
+    "text": "きっちり左右対称に整えられた庭より、少し崩れた野の風情の方が好きだ",
+    "loadings": {
+      "symmetry_preference": -0.8,
+      "organic_vs_geometric": -0.6,
+      "wabi_sabi": 0.5,
+      "nature_vs_culture": -0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_008",
+    "text": "機械で量産されたものより、少し歪んだ手作りの器の方が手に取りたい",
+    "loadings": {
+      "craft_appreciation": 0.9,
+      "rough_vs_polished": -0.5,
+      "wabi_sabi": 0.5,
+      "organic_vs_geometric": -0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_aesthetic_009",
+    "text": "ネオンと鉄骨の無機質な都市の夜景に、どこか惹かれる",
+    "loadings": {
+      "warm_vs_cool_palette": 0.7,
+      "organic_vs_geometric": 0.6,
+      "urban_vs_rural": 0.5,
+      "classical_vs_contemporary": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_aesthetic_010",
+    "text": "装飾を削ぎ落とした禅寺の石庭に、長く居たいと感じる",
+    "loadings": {
+      "ornate_vs_austere": 0.8,
+      "minimalism_vs_maximalism": -0.6,
+      "classical_vs_contemporary": -0.5,
+      "spirituality": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_011",
+    "text": "どこか切なさを帯びた曲ばかり聴いている時期がよくある",
+    "loadings": {
+      "melancholy_affinity": 0.9,
+      "dark_content_affinity": 0.4,
+      "openness_aesthetic": 0.4,
+      "neuroticism": 0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_012",
+    "text": "昭和の古い喫茶店の、くたびれたソファに座るとほっとする",
+    "loadings": {
+      "nostalgia_affinity": 0.9,
+      "wabi_sabi": 0.5,
+      "classical_vs_contemporary": -0.5,
+      "rough_vs_polished": -0.3
+    },
+    "difficulty": -0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_013",
+    "text": "洗練された上品さより、少し荒削りな熱量のある作品に惹かれる",
+    "loadings": {
+      "gritty_vs_elegant": -0.8,
+      "rough_vs_polished": -0.5,
+      "pop_vs_avant_garde": 0.4,
+      "emotional_expressiveness": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_014",
+    "text": "端正でエレガントなものに、抗えない魅力を感じる",
+    "loadings": {
+      "gritty_vs_elegant": 0.8,
+      "rough_vs_polished": 0.5,
+      "symmetry_preference": 0.4,
+      "classical_vs_contemporary": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_015",
+    "text": "装飾の多いバロック的な内装より、シンプルな白木の空間にくつろぐ",
+    "loadings": {
+      "ornate_vs_austere": 0.7,
+      "minimalism_vs_maximalism": -0.6,
+      "aesthetic_complexity": -0.4,
+      "warm_vs_cool_palette": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_aesthetic_016",
+    "text": "古い教会のステンドグラスから落ちる光に、意味もなく泣きそうになる",
+    "loadings": {
+      "openness_aesthetic": 0.7,
+      "spirituality": 0.6,
+      "melancholy_affinity": 0.5,
+      "emotional_expressiveness": 0.4
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_017",
+    "text": "カラフルで情報量の多いポップな絵より、墨一色の水墨画に惹かれる",
+    "loadings": {
+      "minimalism_vs_maximalism": -0.7,
+      "classical_vs_contemporary": -0.5,
+      "warm_vs_cool_palette": 0.3,
+      "aesthetic_complexity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_018",
+    "text": "誰もが理解できる明快な作品より、意図のわからない前衛的な作品の方が面白い",
+    "loadings": {
+      "pop_vs_avant_garde": 0.8,
+      "tolerance_ambiguity": 0.6,
+      "openness_aesthetic": 0.5,
+      "aesthetic_complexity": 0.4
+    },
+    "difficulty": 0.4,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_aesthetic_019",
+    "text": "新品のピカピカの道具より、使い込まれて傷のついた道具に愛着を感じる",
+    "loadings": {
+      "wabi_sabi": 0.8,
+      "rough_vs_polished": -0.6,
+      "craft_appreciation": 0.5,
+      "nostalgia_affinity": 0.4
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_020",
+    "text": "建築を見るなら、石造りの教会より、ガラスと鋼の現代建築の方がわくわくする",
+    "loadings": {
+      "classical_vs_contemporary": 0.8,
+      "organic_vs_geometric": 0.6,
+      "warm_vs_cool_palette": 0.5,
+      "tradition_vs_innovation": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_021",
+    "text": "華やかに飾り立てられたケーキより、素朴な焼き菓子の方が美しいと思う",
+    "loadings": {
+      "ornate_vs_austere": 0.7,
+      "minimalism_vs_maximalism": -0.5,
+      "craft_appreciation": 0.4,
+      "frugality_vs_indulgence": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_aesthetic_022",
+    "text": "初めて聴く複雑な曲でも、構造を追いかけるのが楽しい",
+    "loadings": {
+      "aesthetic_complexity": 0.7,
+      "music_complexity": 0.8,
+      "openness_aesthetic": 0.4,
+      "pattern_recognition": 0.4
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_aesthetic_023",
+    "text": "夕暮れ時の、昼でも夜でもない曖昧な光の時間帯が一番好きだ",
+    "loadings": {
+      "melancholy_affinity": 0.6,
+      "nostalgia_affinity": 0.5,
+      "tolerance_ambiguity": 0.4,
+      "openness_aesthetic": 0.4,
+      "bright_vs_dark": 0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.2
+  },
+
+  {
+    "question_id": "q_worldview_001",
+    "text": "完璧な幸せより、少し欠けた幸せの方が本物だと思う",
+    "loadings": {
+      "wabi_sabi": 0.5,
+      "hedonic_vs_eudaimonic": -0.5,
+      "optimism_vs_pessimism": -0.3,
+      "meaning_belief": 0.4,
+      "melancholy_affinity": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_002",
+    "text": "「人間って結局こんなもの」と諦める方が、むしろ楽に生きられる",
+    "loadings": {
+      "optimism_vs_pessimism": -0.6,
+      "humanism": -0.4,
+      "meaning_belief": -0.4,
+      "trust_threshold": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_003",
+    "text": "どれだけ頑張っても、結局は運と環境で決まると感じる",
+    "loadings": {
+      "determinism_vs_agency": -0.8,
+      "optimism_vs_pessimism": -0.4,
+      "meritocracy_vs_equality": -0.3,
+      "meaning_belief": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_004",
+    "text": "論理や数字で説明できないことにも、何か確かなものが宿っていると感じる",
+    "loadings": {
+      "spirituality": 0.8,
+      "scientific_worldview": -0.5,
+      "analytical_vs_intuitive": -0.4,
+      "openness": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_worldview_005",
+    "text": "AIや技術が発展すれば、人間の悩みの多くは減っていくと思う",
+    "loadings": {
+      "techno_optimism": 0.9,
+      "optimism_vs_pessimism": 0.4,
+      "scientific_worldview": 0.4,
+      "tradition_vs_innovation": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_006",
+    "text": "人間も結局は動物の一種で、特別な存在ではないと思う",
+    "loadings": {
+      "humanism": -0.8,
+      "nature_vs_culture": -0.6,
+      "scientific_worldview": 0.4,
+      "moral_absolutism": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_007",
+    "text": "ふとした瞬間に「自分はなぜ存在しているのか」を考え込んでしまう",
+    "loadings": {
+      "existentialism": 0.9,
+      "metacognition": 0.5,
+      "meaning_belief": 0.3,
+      "neuroticism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_008",
+    "text": "人生には、自分に与えられた役割や意味があると感じる",
+    "loadings": {
+      "meaning_belief": 0.9,
+      "spirituality": 0.5,
+      "existentialism": 0.3,
+      "optimism_vs_pessimism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_worldview_009",
+    "text": "時代や文化が変わっても、変わらない「善悪」はあると思う",
+    "loadings": {
+      "moral_absolutism": 0.9,
+      "sanctity_vs_openness": 0.5,
+      "tradition_vs_innovation": -0.3,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_worldview_010",
+    "text": "科学的に証明できないことは、とりあえず信じないことにしている",
+    "loadings": {
+      "scientific_worldview": 0.9,
+      "spirituality": -0.6,
+      "analytical_vs_intuitive": 0.4,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_worldview_011",
+    "text": "大雨の後の澄んだ空気の中にいると、自分も自然の一部なんだと感じる",
+    "loadings": {
+      "nature_vs_culture": -0.7,
+      "spirituality": 0.5,
+      "openness_aesthetic": 0.4,
+      "urban_vs_rural": -0.4
+    },
+    "difficulty": -0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_worldview_012",
+    "text": "未来はだいたい今より良くなっていく、と基本的には思っている",
+    "loadings": {
+      "optimism_vs_pessimism": 0.9,
+      "techno_optimism": 0.4,
+      "determinism_vs_agency": 0.3,
+      "neuroticism": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_013",
+    "text": "人間の文化や芸術は、自然界の何よりも価値があると思う",
+    "loadings": {
+      "humanism": 0.8,
+      "nature_vs_culture": 0.7,
+      "openness_aesthetic": 0.3,
+      "urban_vs_rural": 0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_014",
+    "text": "自分の選択次第で、未来は本当に変えられると思っている",
+    "loadings": {
+      "determinism_vs_agency": 0.9,
+      "optimism_vs_pessimism": 0.4,
+      "intrinsic_motivation": 0.3,
+      "achievement_drive": 0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_015",
+    "text": "テクノロジーが進むほど、大切な何かが失われている気がする",
+    "loadings": {
+      "techno_optimism": -0.8,
+      "nostalgia_affinity": 0.5,
+      "tradition_vs_innovation": -0.5,
+      "nature_vs_culture": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_016",
+    "text": "「倫理はその場の状況による」と言われると、なんとなく納得できない",
+    "loadings": {
+      "moral_absolutism": 0.8,
+      "sanctity_vs_openness": 0.4,
+      "cognitive_closure_need": 0.3,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_017",
+    "text": "意味を探すより、目の前の生活を丁寧に生きる方が大事だと思う",
+    "loadings": {
+      "existentialism": -0.5,
+      "meaning_belief": -0.3,
+      "pragmatism_vs_idealism": 0.5,
+      "hedonic_vs_eudaimonic": 0.3,
+      "time_horizon": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_worldview_018",
+    "text": "神社や古い祠の前を通ると、なんとなく居住まいを正したくなる",
+    "loadings": {
+      "spirituality": 0.7,
+      "sanctity_vs_openness": 0.6,
+      "tradition_vs_innovation": -0.4,
+      "nostalgia_affinity": 0.3
+    },
+    "difficulty": -0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_019",
+    "text": "「いつか必ず死ぬ」という事実が、日常の判断にずっと影を落としている",
+    "loadings": {
+      "existentialism": 0.8,
+      "dark_content_affinity": 0.4,
+      "metacognition": 0.5,
+      "neuroticism": 0.4
+    },
+    "difficulty": 0.4,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_worldview_020",
+    "text": "世界は最終的には理不尽で、努力は必ず報われるわけではない",
+    "loadings": {
+      "optimism_vs_pessimism": -0.7,
+      "determinism_vs_agency": -0.4,
+      "meritocracy_vs_equality": -0.3,
+      "meaning_belief": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_021",
+    "text": "人と自然の関係でいうと、人間は自然に「お邪魔している」側だと思う",
+    "loadings": {
+      "nature_vs_culture": -0.8,
+      "humanism": -0.5,
+      "sanctity_vs_openness": 0.3,
+      "spirituality": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_022",
+    "text": "理屈では説明できない「虫の知らせ」のようなものを、案外信じている",
+    "loadings": {
+      "spirituality": 0.7,
+      "analytical_vs_intuitive": -0.5,
+      "scientific_worldview": -0.5,
+      "tolerance_ambiguity": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_worldview_023",
+    "text": "人類は長い目で見れば、きっとより賢く、より優しくなっていく",
+    "loadings": {
+      "optimism_vs_pessimism": 0.8,
+      "humanism": 0.6,
+      "techno_optimism": 0.4,
+      "meaning_belief": 0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  }
+]

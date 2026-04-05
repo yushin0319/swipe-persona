@@ -1,0 +1,763 @@
+# swipe-persona 105軸定義
+#
+# 各軸:
+#   axis_id: snake_case の識別子
+#   category: カテゴリ (bigfive / cognitive / values / motivation / aesthetic /
+#             worldview / interpersonal / lifestyle / content)
+#   display_name: 日本語表示名
+#   description: 軸の意味
+#   pole_low: -1.0 端の意味
+#   pole_high: +1.0 端の意味
+#
+# 値は -1.0〜+1.0 の連続値。0 = 中立 / 情報なし。
+# ベイズ事前分布: N(0, 1.0²)
+
+version: 1
+prior_mean: 0.0
+prior_std: 1.0
+
+axes:
+
+  # ========== Big Five 派生 (15軸) ==========
+  - axis_id: openness
+    category: bigfive
+    display_name: 開放性
+    description: 新奇性・芸術・抽象概念への開放度
+    pole_low: 保守的・慣れ親しんだものを好む
+    pole_high: 新奇性・抽象・未知への強い関心
+
+  - axis_id: openness_aesthetic
+    category: bigfive
+    display_name: 芸術感受性
+    description: 芸術・美・詩的表現への感受性（Openness サブファセット）
+    pole_low: 芸術に関心が薄い
+    pole_high: 芸術・美に強く動かされる
+
+  - axis_id: openness_ideas
+    category: bigfive
+    display_name: 知的好奇心
+    description: 抽象的・理論的アイデアを追うこと自体への喜び
+    pole_low: 実用的なことだけ考えたい
+    pole_high: 抽象思考そのものが快
+
+  - axis_id: conscientiousness
+    category: bigfive
+    display_name: 誠実性
+    description: 計画性・責任感・自己統制
+    pole_low: 衝動的・その場の気分で動く
+    pole_high: 計画的・規律的
+
+  - axis_id: conscientiousness_order
+    category: bigfive
+    display_name: 秩序志向
+    description: 整理整頓・構造化への志向（Conscientiousness サブファセット）
+    pole_low: 散らかっていても気にならない
+    pole_high: 秩序のない状態が強く気になる
+
+  - axis_id: conscientiousness_duty
+    category: bigfive
+    display_name: 義務感
+    description: 約束・責任・役割への重み付け
+    pole_low: 約束を流動的に扱う
+    pole_high: 約束を絶対的に守る
+
+  - axis_id: extraversion
+    category: bigfive
+    display_name: 外向性
+    description: 対人エネルギー・社交志向
+    pole_low: 一人の時間でエネルギー回復
+    pole_high: 他者との交流でエネルギー獲得
+
+  - axis_id: extraversion_assertiveness
+    category: bigfive
+    display_name: 主張性
+    description: 自分の意見を前に出す度合い（Extraversion サブファセット）
+    pole_low: 場を尊重して引く
+    pole_high: 率直に意見を押す
+
+  - axis_id: extraversion_excitement
+    category: bigfive
+    display_name: 刺激追求
+    description: 高刺激状態・スリルへの欲求
+    pole_low: 穏やかで一定な環境を好む
+    pole_high: 刺激的で変動の大きい環境を好む
+
+  - axis_id: agreeableness
+    category: bigfive
+    display_name: 協調性
+    description: 他者への信頼・共感・配慮
+    pole_low: 懐疑的・自己主張優先
+    pole_high: 信頼的・他者配慮優先
+
+  - axis_id: agreeableness_empathy
+    category: bigfive
+    display_name: 共感性
+    description: 他者の感情への共鳴度
+    pole_low: 感情より論理で判断
+    pole_high: 他者の感情を自分のこととして感じる
+
+  - axis_id: agreeableness_modesty
+    category: bigfive
+    display_name: 謙虚さ
+    description: 自己顕示を抑える傾向
+    pole_low: 自分の成果を前面に出す
+    pole_high: 自分を後ろに置く
+
+  - axis_id: neuroticism
+    category: bigfive
+    display_name: 情動安定性（逆転）
+    description: ネガティブ感情への感受性・反応性
+    pole_low: 感情が安定・動揺しにくい
+    pole_high: 不安・心配・落ち込みやすい
+
+  - axis_id: neuroticism_anxiety
+    category: bigfive
+    display_name: 不安傾向
+    description: 将来や未知への心配度
+    pole_low: 未知を自然体で受け入れる
+    pole_high: 未知に強い不安を感じる
+
+  - axis_id: neuroticism_volatility
+    category: bigfive
+    display_name: 感情変動性
+    description: 感情の振幅の大きさ
+    pole_low: 感情の波が小さい
+    pole_high: 感情の波が大きい
+
+  # ========== 認知スタイル (12軸) ==========
+  - axis_id: analytical_vs_intuitive
+    category: cognitive
+    display_name: 分析↔直感
+    description: 判断をどちらに寄せるか
+    pole_low: 直感・感覚に頼る
+    pole_high: 分析・論理に頼る
+
+  - axis_id: detail_vs_big_picture
+    category: cognitive
+    display_name: 詳細↔全体
+    description: どの解像度で世界を見るか
+    pole_low: 全体・文脈から掴む
+    pole_high: 細部・構成要素から掴む
+
+  - axis_id: systematic_vs_exploratory
+    category: cognitive
+    display_name: 体系↔探索
+    description: 手順を守るか、試行錯誤するか
+    pole_low: 好奇心で逸脱しながら進む
+    pole_high: 手順に沿って体系的に進む
+
+  - axis_id: verbal_vs_visual
+    category: cognitive
+    display_name: 言語↔視覚
+    description: 思考の主モダリティ
+    pole_low: 視覚・空間で思考
+    pole_high: 言語・文字列で思考
+
+  - axis_id: abstract_vs_concrete
+    category: cognitive
+    display_name: 抽象↔具体
+    description: 概念レイヤーと事例レイヤーのどちらから入るか
+    pole_low: 具体例・事例から入る
+    pole_high: 抽象概念・構造から入る
+
+  - axis_id: convergent_vs_divergent
+    category: cognitive
+    display_name: 収束↔発散
+    description: 1つの正解を求めるか、可能性を広げるか
+    pole_low: 発散的・多様な選択肢を生む
+    pole_high: 収束的・1つの最適解に絞る
+
+  - axis_id: sequential_vs_holistic
+    category: cognitive
+    display_name: 逐次↔全体
+    description: 情報を順番に処理するか、同時に処理するか
+    pole_low: 全体を一度に把握
+    pole_high: 順番に一つずつ処理
+
+  - axis_id: speed_vs_accuracy
+    category: cognitive
+    display_name: 速度↔正確性
+    description: 判断のトレードオフ
+    pole_low: 精度を優先して遅くなってもよい
+    pole_high: 速度を優先してミスは後で直す
+
+  - axis_id: pattern_recognition
+    category: cognitive
+    display_name: パターン認識嗜好
+    description: 繰り返し・規則性を見つけることへの快
+    pole_low: ランダム性・一回性を楽しむ
+    pole_high: パターン・規則を見つけると快
+
+  - axis_id: metacognition
+    category: cognitive
+    display_name: メタ認知傾向
+    description: 自分の思考を観察する習慣
+    pole_low: 思考をそのまま流す
+    pole_high: 自分の思考過程を常に観察する
+
+  - axis_id: tolerance_ambiguity
+    category: cognitive
+    display_name: 曖昧さ耐性
+    description: 答えが出ない状態に耐える力
+    pole_low: 早く結論を出したい
+    pole_high: 曖昧なまま長く保持できる
+
+  - axis_id: cognitive_closure_need
+    category: cognitive
+    display_name: 認知的終結欲求
+    description: 不確定な状態を避けたい度合い
+    pole_low: 未決定・オープンでOK
+    pole_high: 早く決着をつけたい
+
+  # ========== 価値観・倫理 (12軸) ==========
+  - axis_id: tradition_vs_innovation
+    category: values
+    display_name: 伝統↔革新
+    description: 既存の積み重ねを重視するか、新しさを重視するか
+    pole_low: 伝統・継承を重視
+    pole_high: 革新・更新を重視
+
+  - axis_id: individual_vs_collective
+    category: values
+    display_name: 個人↔集団
+    description: 判断軸の中心
+    pole_low: 集団の和・調整を優先
+    pole_high: 個人の自由・自己決定を優先
+
+  - axis_id: security_vs_freedom
+    category: values
+    display_name: 安定↔自由
+    description: 安全と自由の優先順位
+    pole_low: 安定・予測可能性を優先
+    pole_high: 自由・可変性を優先
+
+  - axis_id: fairness_vs_efficiency
+    category: values
+    display_name: 公平↔効率
+    description: 分配原理の傾き
+    pole_low: 効率・最大化を優先
+    pole_high: 公平・均等を優先
+
+  - axis_id: pragmatism_vs_idealism
+    category: values
+    display_name: 実用↔理想
+    description: 現実解と理想のどちらを選ぶか
+    pole_low: 理想を追う
+    pole_high: 現実で機能するものを選ぶ
+
+  - axis_id: care_vs_autonomy
+    category: values
+    display_name: ケア↔自律
+    description: 他者との関わり方
+    pole_low: 相手の自律を尊重して距離を保つ
+    pole_high: 積極的にケア・世話を焼く
+
+  - axis_id: loyalty_vs_universalism
+    category: values
+    display_name: 忠誠↔普遍
+    description: 内集団と普遍原則のどちらを優先するか
+    pole_low: 普遍的原則を優先
+    pole_high: 身内・仲間を優先
+
+  - axis_id: authority_vs_autonomy
+    category: values
+    display_name: 権威↔自律
+    description: 決定権の所在
+    pole_low: 自分で決めたい
+    pole_high: 権威・専門家に従うべき
+
+  - axis_id: sanctity_vs_openness
+    category: values
+    display_name: 神聖↔寛容
+    description: 「侵してはならないもの」の厳しさ
+    pole_low: 基本何でもあり
+    pole_high: 侵してはいけない領域がある
+
+  - axis_id: meritocracy_vs_equality
+    category: values
+    display_name: 能力主義↔平等
+    description: 報酬分配の原理
+    pole_low: 平等に分配すべき
+    pole_high: 貢献量に応じて分配すべき
+
+  - axis_id: competition_vs_cooperation
+    category: values
+    display_name: 競争↔協力
+    description: 関係の基本モード
+    pole_low: 協力的な関係を基本とする
+    pole_high: 競争的な関係を基本とする
+
+  - axis_id: privacy_sensitivity
+    category: values
+    display_name: プライバシー感度
+    description: 自分や他人の私領域への厳しさ
+    pole_low: オープンで気にしない
+    pole_high: プライバシーは強く守るべき
+
+  # ========== 動機・エネルギー源 (10軸) ==========
+  - axis_id: intrinsic_motivation
+    category: motivation
+    display_name: 内発的動機
+    description: 外部報酬なしに動く度合い
+    pole_low: 外部報酬がないと動きにくい
+    pole_high: 内側の欲求だけで動ける
+
+  - axis_id: achievement_drive
+    category: motivation
+    display_name: 達成動機
+    description: 困難な目標を達成したい欲求
+    pole_low: 楽に過ごせればよい
+    pole_high: 高い目標を達成したい
+
+  - axis_id: social_approval_need
+    category: motivation
+    display_name: 承認欲求
+    description: 他者からの評価をどれだけ求めるか
+    pole_low: 自分の評価で十分
+    pole_high: 他者からの承認が強く必要
+
+  - axis_id: novelty_seeking
+    category: motivation
+    display_name: 新奇追求
+    description: 新しい経験・体験への欲求
+    pole_low: 慣れた快適さを好む
+    pole_high: 常に新しい何かを求める
+
+  - axis_id: mastery_vs_performance
+    category: motivation
+    display_name: 熟達↔成果
+    description: 何のために努力するか
+    pole_low: 結果・成果を見せたい
+    pole_high: 技能の深化そのものが目的
+
+  - axis_id: power_motive
+    category: motivation
+    display_name: 権力動機
+    description: 影響力・支配を求める度合い
+    pole_low: 影響力を持ちたくない
+    pole_high: 強い影響力を持ちたい
+
+  - axis_id: affiliation_motive
+    category: motivation
+    display_name: 親和動機
+    description: 親密な関係を求める度合い
+    pole_low: 親密さを強く求めない
+    pole_high: 親密な関係を強く求める
+
+  - axis_id: curiosity_breadth
+    category: motivation
+    display_name: 好奇心の幅
+    description: 興味を広げるタイプか、深めるタイプか
+    pole_low: 少数の対象を深掘り
+    pole_high: 多数の対象を浅く広く
+
+  - axis_id: autotelic_flow
+    category: motivation
+    display_name: フロー志向
+    description: 没頭状態そのものを求める度合い
+    pole_low: 没頭よりも変化を好む
+    pole_high: 没頭できる活動に価値を見出す
+
+  - axis_id: hedonic_vs_eudaimonic
+    category: motivation
+    display_name: 快楽↔意味
+    description: 幸福観の傾き
+    pole_low: 意味・成長志向の幸福
+    pole_high: 快楽・気持ちよさ志向の幸福
+
+  # ========== 美学・嗜好 (15軸) ==========
+  - axis_id: aesthetic_complexity
+    category: aesthetic
+    display_name: 複雑さ嗜好
+    description: 単純さと複雑さ、どちらに美を見るか
+    pole_low: シンプル・ミニマルな美
+    pole_high: 複雑・重層的な美
+
+  - axis_id: minimalism_vs_maximalism
+    category: aesthetic
+    display_name: ミニマル↔マキシマル
+    description: 情報密度の好み
+    pole_low: 削ぎ落とした空間
+    pole_high: 情報で満ちた空間
+
+  - axis_id: classical_vs_contemporary
+    category: aesthetic
+    display_name: 古典↔現代
+    description: 時代性の好み
+    pole_low: 古典的・歴史のあるもの
+    pole_high: 現代的・同時代性のあるもの
+
+  - axis_id: wabi_sabi
+    category: aesthetic
+    display_name: 侘び寂び感性
+    description: 不完全・経年変化に美を見出す度合い
+    pole_low: 新しい・完全なものを好む
+    pole_high: 古び・ほころびに美を感じる
+
+  - axis_id: pop_vs_avant_garde
+    category: aesthetic
+    display_name: ポップ↔前衛
+    description: 大衆性と先端性のバランス
+    pole_low: ポップ・わかりやすさ
+    pole_high: 前衛・挑発・違和感
+
+  - axis_id: warm_vs_cool_palette
+    category: aesthetic
+    display_name: 暖色↔寒色嗜好
+    description: 色の基調の好み
+    pole_low: 暖色系・有機的
+    pole_high: 寒色系・無機質
+
+  - axis_id: organic_vs_geometric
+    category: aesthetic
+    display_name: 有機↔幾何
+    description: 形状の好み
+    pole_low: 曲線・有機的
+    pole_high: 直線・幾何学的
+
+  - axis_id: rough_vs_polished
+    category: aesthetic
+    display_name: 粗さ↔磨き
+    description: 仕上げの好み
+    pole_low: ラフ・未完成感のある質感
+    pole_high: 磨き上げられた完成度
+
+  - axis_id: bright_vs_dark
+    category: aesthetic
+    display_name: 明↔暗
+    description: 明度の好み
+    pole_low: 明るく軽やかなトーン
+    pole_high: 暗く重いトーン
+
+  - axis_id: ornate_vs_austere
+    category: aesthetic
+    display_name: 装飾↔禁欲
+    description: 装飾性の好み
+    pole_low: 装飾的・華やか
+    pole_high: 禁欲的・削ぎ落とし
+
+  - axis_id: melancholy_affinity
+    category: aesthetic
+    display_name: 憂愁親和
+    description: 憂い・切なさへの親和性
+    pole_low: 明るくポジティブなもの
+    pole_high: 憂いのあるものに惹かれる
+
+  - axis_id: nostalgia_affinity
+    category: aesthetic
+    display_name: 郷愁親和
+    description: ノスタルジー・失われたものへの感受性
+    pole_low: 今・未来志向
+    pole_high: 過去・失われたものに惹かれる
+
+  - axis_id: gritty_vs_elegant
+    category: aesthetic
+    display_name: 荒々しさ↔優雅
+    description: 美のテクスチャ
+    pole_low: 荒々しさ・野生
+    pole_high: 優雅さ・洗練
+
+  - axis_id: symmetry_preference
+    category: aesthetic
+    display_name: 対称性嗜好
+    description: 対称と非対称のどちらに安心するか
+    pole_low: 非対称・ずれを好む
+    pole_high: 対称・均整を好む
+
+  - axis_id: craft_appreciation
+    category: aesthetic
+    display_name: 手仕事感度
+    description: 手作業の痕跡・工芸性への感度
+    pole_low: 機械的・均質なものでよい
+    pole_high: 手仕事の痕跡に価値を見る
+
+  # ========== 思想・世界観 (10軸) ==========
+  - axis_id: optimism_vs_pessimism
+    category: worldview
+    display_name: 楽観↔悲観
+    description: 未来の基本見立て
+    pole_low: 悲観的・最悪を想定
+    pole_high: 楽観的・希望を持つ
+
+  - axis_id: determinism_vs_agency
+    category: worldview
+    display_name: 決定論↔主体性
+    description: 自由意志観
+    pole_low: 全ては決まっている
+    pole_high: 自分の選択で未来が変わる
+
+  - axis_id: spirituality
+    category: worldview
+    display_name: スピリチュアリティ
+    description: 超越的・非物質的なものへの感受性
+    pole_low: 物質・論理だけで十分
+    pole_high: 超越的・霊的なものを感じる
+
+  - axis_id: techno_optimism
+    category: worldview
+    display_name: 技術楽観
+    description: テクノロジーへの信頼
+    pole_low: 技術は問題を増やす
+    pole_high: 技術は問題を解決する
+
+  - axis_id: nature_vs_culture
+    category: worldview
+    display_name: 自然↔文化
+    description: どちらの側に人間の本質があるか
+    pole_low: 人間は自然の一部
+    pole_high: 人間は文化の産物
+
+  - axis_id: meaning_belief
+    category: worldview
+    display_name: 意味信念
+    description: 人生に意味があると感じる度合い
+    pole_low: 意味はない・自分で作る
+    pole_high: 何か意味が与えられている
+
+  - axis_id: existentialism
+    category: worldview
+    display_name: 実存志向
+    description: 自分の実存への問い
+    pole_low: 実存への問いをあまりしない
+    pole_high: 実存・死・意味を常に問う
+
+  - axis_id: scientific_worldview
+    category: worldview
+    display_name: 科学的世界観
+    description: 科学的方法論への信頼度
+    pole_low: 科学以外の方法も等しく重視
+    pole_high: 科学的方法論を最上位に置く
+
+  - axis_id: moral_absolutism
+    category: worldview
+    display_name: 倫理絶対主義
+    description: 倫理の普遍性を信じる度合い
+    pole_low: 倫理は文脈依存
+    pole_high: 倫理には絶対があると信じる
+
+  - axis_id: humanism
+    category: worldview
+    display_name: 人間中心主義
+    description: 人間を特別視する度合い
+    pole_low: 人間は他の生物と等価
+    pole_high: 人間は特別な存在
+
+  # ========== 対人スタイル (12軸) ==========
+  - axis_id: dominance_vs_deference
+    category: interpersonal
+    display_name: 支配↔服従
+    description: 関係の上下軸
+    pole_low: 相手を立てる
+    pole_high: 主導権を握る
+
+  - axis_id: conflict_style_confront
+    category: interpersonal
+    display_name: 対立直面
+    description: 対立を避けるか直面するか
+    pole_low: 対立を避ける
+    pole_high: 対立を直接話し合いで解決する
+
+  - axis_id: trust_threshold
+    category: interpersonal
+    display_name: 信頼閾値
+    description: 初対面での信頼のベースライン
+    pole_low: まず疑ってかかる
+    pole_high: まず信頼する
+
+  - axis_id: emotional_expressiveness
+    category: interpersonal
+    display_name: 感情表出
+    description: 感情を外に出す度合い
+    pole_low: 感情を内に留める
+    pole_high: 感情を素直に表に出す
+
+  - axis_id: boundary_firmness
+    category: interpersonal
+    display_name: 境界線の厚み
+    description: 自他の境界の明確さ
+    pole_low: 境界は薄く流動的
+    pole_high: 境界は厚く明確
+
+  - axis_id: social_energy_recovery
+    category: interpersonal
+    display_name: 社交回復
+    description: 社交後の回復パターン
+    pole_low: 社交後は疲れて一人時間が必要
+    pole_high: 社交そのものが回復になる
+
+  - axis_id: self_disclosure
+    category: interpersonal
+    display_name: 自己開示
+    description: 自分のことをどれだけ話すか
+    pole_low: 自分のことは話さない
+    pole_high: 早い段階から自分のことを話す
+
+  - axis_id: humor_deployment
+    category: interpersonal
+    display_name: ユーモア運用
+    description: ユーモアを関係構築に使うか
+    pole_low: 真面目に直球で話す
+    pole_high: ユーモアで場を作る
+
+  - axis_id: reciprocity_strictness
+    category: interpersonal
+    display_name: 互酬厳密性
+    description: 貸し借りの帳尻を合わせたい度合い
+    pole_low: 貸し借りを流動的に扱う
+    pole_high: 貸し借りは厳密にバランスさせたい
+
+  - axis_id: group_size_preference
+    category: interpersonal
+    display_name: 集団サイズ嗜好
+    description: 快適に感じる集団の大きさ
+    pole_low: 1対1や少人数を好む
+    pole_high: 大人数の場を好む
+
+  - axis_id: leadership_comfort
+    category: interpersonal
+    display_name: リーダー快適度
+    description: リーダー役を担うことへの快適度
+    pole_low: リーダー役は避けたい
+    pole_high: リーダー役に心地よさを感じる
+
+  - axis_id: forgiveness_tendency
+    category: interpersonal
+    display_name: 赦し傾向
+    description: 相手の過ちをどれだけ許せるか
+    pole_low: 過ちを長く覚えている
+    pole_high: 早く許して忘れる
+
+  # ========== 時間・ライフスタイル (8軸) ==========
+  - axis_id: time_horizon
+    category: lifestyle
+    display_name: 時間地平
+    description: どれくらい先まで見て動くか
+    pole_low: 今・目先を重視
+    pole_high: 数年〜長期を重視
+
+  - axis_id: planning_vs_spontaneity
+    category: lifestyle
+    display_name: 計画↔即興
+    description: 行動の組み立て方
+    pole_low: 即興で動く
+    pole_high: 計画通り動く
+
+  - axis_id: risk_tolerance
+    category: lifestyle
+    display_name: リスク許容
+    description: 不確実性への許容度
+    pole_low: リスクを避けたい
+    pole_high: リスクを積極的に取る
+
+  - axis_id: work_life_integration
+    category: lifestyle
+    display_name: 仕事生活統合
+    description: 仕事とプライベートの分離度
+    pole_low: きっちり分けたい
+    pole_high: 一体化していてよい
+
+  - axis_id: consumption_vs_creation
+    category: lifestyle
+    display_name: 消費↔創造
+    description: 余暇の過ごし方
+    pole_low: 作る側でありたい
+    pole_high: 受け取る側で楽しみたい
+
+  - axis_id: urban_vs_rural
+    category: lifestyle
+    display_name: 都市↔田舎
+    description: 環境の好み
+    pole_low: 田舎・自然
+    pole_high: 都市・人工
+
+  - axis_id: morning_vs_night
+    category: lifestyle
+    display_name: 朝↔夜
+    description: クロノタイプ
+    pole_low: 朝型
+    pole_high: 夜型
+
+  - axis_id: frugality_vs_indulgence
+    category: lifestyle
+    display_name: 節制↔耽溺
+    description: お金・快楽の使い方
+    pole_low: 節制的
+    pole_high: 耽溺的
+
+  # ========== コンテンツ嗜好 (11軸) ==========
+  - axis_id: narrative_vs_factual
+    category: content
+    display_name: 物語↔事実
+    description: 情報摂取の形式
+    pole_low: 事実・データが好き
+    pole_high: 物語・語りが好き
+
+  - axis_id: fiction_genre_scifi
+    category: content
+    display_name: SF親和性
+    description: SF・未来・思弁への親和性
+    pole_low: SFにあまり惹かれない
+    pole_high: SFに強く惹かれる
+
+  - axis_id: fiction_genre_fantasy
+    category: content
+    display_name: ファンタジー親和性
+    description: ファンタジー・神話への親和性
+    pole_low: ファンタジーに惹かれない
+    pole_high: ファンタジーに強く惹かれる
+
+  - axis_id: fiction_genre_mystery
+    category: content
+    display_name: ミステリー親和性
+    description: 謎解き・推理への親和性
+    pole_low: 謎解きに惹かれない
+    pole_high: 謎解きに強く惹かれる
+
+  - axis_id: music_complexity
+    category: content
+    display_name: 音楽複雑性嗜好
+    description: 音楽の情報量の好み
+    pole_low: シンプルな構造の音楽
+    pole_high: 複雑・多層的な音楽
+
+  - axis_id: humor_style_dry
+    category: content
+    display_name: ドライユーモア
+    description: 乾いた皮肉・シニシズムへの親和性
+    pole_low: 明るくストレートなユーモア
+    pole_high: 皮肉・シニカルなユーモア
+
+  - axis_id: physical_vs_intellectual_stimulation
+    category: content
+    display_name: 身体↔知的刺激
+    description: 快の源泉
+    pole_low: 身体的・感覚的刺激
+    pole_high: 知的・概念的刺激
+
+  - axis_id: dark_content_affinity
+    category: content
+    display_name: ダーク親和性
+    description: 暗い・重いコンテンツへの耐性と親和性
+    pole_low: 明るい軽いものを好む
+    pole_high: 暗く重いものを好む
+
+  - axis_id: serial_vs_oneshot
+    category: content
+    display_name: 長編↔一話
+    description: コンテンツ長の好み
+    pole_low: 一話完結・短いもの
+    pole_high: 長編・連続もの
+
+  - axis_id: character_vs_worldbuilding
+    category: content
+    display_name: キャラ↔世界観
+    description: 物語の何に惹かれるか
+    pole_low: 世界観・設定に惹かれる
+    pole_high: キャラクター・関係性に惹かれる
+
+  - axis_id: game_strategic_depth
+    category: content
+    display_name: ゲーム戦略深度嗜好
+    description: ゲームに求める戦略性
+    pole_low: カジュアル・反射神経系
+    pole_high: 深い戦略・長考系

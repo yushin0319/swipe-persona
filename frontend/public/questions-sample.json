@@ -1,0 +1,36 @@
+[
+  {
+    "question_id": "sample_001",
+    "text": "美術館で、説明文を読まずに作品だけを見る",
+    "loadings": {
+      "aesthetic_complexity": 0.6,
+      "verbal_vs_visual": -0.5,
+      "analytical_vs_intuitive": -0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "sample_002",
+    "text": "新しいカフェより、10年通っている店に行きたい",
+    "loadings": {
+      "novelty_seeking": -0.7,
+      "tradition_vs_innovation": -0.5,
+      "security_vs_freedom": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "sample_003",
+    "text": "計画なしに旅に出るとワクワクする",
+    "loadings": {
+      "planning_vs_spontaneity": -0.7,
+      "novelty_seeking": 0.6,
+      "risk_tolerance": 0.4,
+      "extraversion_excitement": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  }
+]
