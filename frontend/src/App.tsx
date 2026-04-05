@@ -1,7 +1,18 @@
+import { useState } from "react";
+import { AuthGate } from "./components/AuthGate";
 import { SwipeCard } from "./components/SwipeCard";
 import { useSwipeSession } from "./hooks/useSwipeSession";
+import { isUnlocked } from "./auth";
 
 function App() {
+  const [unlocked, setUnlocked] = useState(isUnlocked);
+  if (!unlocked) {
+    return <AuthGate onUnlock={() => setUnlocked(true)} />;
+  }
+  return <SwipeApp />;
+}
+
+function SwipeApp() {
   const session = useSwipeSession();
 
   return (
