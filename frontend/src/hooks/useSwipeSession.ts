@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import type { Answer, Question, SwipeDirection } from "../types";
 import { directionToResponse } from "../types";
+import { getAuthToken } from "../auth";
 
 type Phase = "loading" | "swiping" | "finished";
 
@@ -12,32 +13,40 @@ interface SessionState {
   error: string | null;
 }
 
-// 開発用: ローカル JSON を fetch するダミーソース
-// 本番では n8n webhook に差し替え (VITE_API_BASE_URL)
-async function fetchQuestions(): Promise<Question[]> {
-  const baseUrl = import.meta.env.VITE_API_BASE_URL;
-  if (baseUrl) {
-    const res = await fetch(`${baseUrl}/swipe-persona/questions`);
+// Worker API エンドポイント (build時に env から注入、未設定時はローカル sample へフォールバック)
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "";
+
+function authHeaders(): Record<string, string> {
+  const token = getAuthToken();
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
+async function fetchQuestions(limit = 20): Promise<Question[]> {
+  if (API_BASE) {
+    const res = await fetch(`${API_BASE}/api/questions?limit=${limit}`, {
+      headers: authHeaders(),
+    });
     if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
-    return res.json();
+    const data = (await res.json()) as { questions: Question[] };
+    return data.questions;
   }
-  // ローカル開発: public/questions-sample.json から読む
+  // ローカル開発: sample JSON
   const res = await fetch(`${import.meta.env.BASE_URL}questions-sample.json`);
   if (!res.ok) throw new Error("no sample questions available");
   return res.json();
 }
 
 async function postAnswers(answers: Answer[]): Promise<void> {
-  const baseUrl = import.meta.env.VITE_API_BASE_URL;
-  if (!baseUrl) {
+  if (!API_BASE) {
     console.log("[dev] answers (would POST):", answers);
     return;
   }
-  await fetch(`${baseUrl}/swipe-persona/answers`, {
+  const res = await fetch(`${API_BASE}/api/answers`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", ...authHeaders() },
     body: JSON.stringify({ answers }),
   });
+  if (!res.ok) throw new Error(`post failed: ${res.status}`);
 }
 
 export function useSwipeSession() {
@@ -65,27 +74,24 @@ export function useSwipeSession() {
       });
   }, []);
 
-  const handleSwipe = useCallback(
-    (direction: SwipeDirection) => {
-      setState((s) => {
-        const current = s.questions[s.index];
-        if (!current) return s;
-        const newAnswer: Answer = {
-          question_id: current.question_id,
-          response: directionToResponse(direction),
-        };
-        const newAnswers = [...s.answers, newAnswer];
-        const nextIndex = s.index + 1;
-        if (nextIndex >= s.questions.length) {
-          // 終了 → POST
-          postAnswers(newAnswers).catch((e) => console.error(e));
-          return { ...s, index: nextIndex, answers: newAnswers, phase: "finished" };
-        }
-        return { ...s, index: nextIndex, answers: newAnswers };
-      });
-    },
-    [],
-  );
+  const handleSwipe = useCallback((direction: SwipeDirection) => {
+    setState((s) => {
+      const current = s.questions[s.index];
+      if (!current) return s;
+      const newAnswer: Answer = {
+        question_id: current.question_id,
+        response: directionToResponse(direction),
+      };
+      const newAnswers = [...s.answers, newAnswer];
+      const nextIndex = s.index + 1;
+      if (nextIndex >= s.questions.length) {
+        // 終了 → POST
+        postAnswers(newAnswers).catch((e) => console.error(e));
+        return { ...s, index: nextIndex, answers: newAnswers, phase: "finished" };
+      }
+      return { ...s, index: nextIndex, answers: newAnswers };
+    });
+  }, []);
 
   return {
     ...state,

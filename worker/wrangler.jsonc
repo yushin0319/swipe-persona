@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "swipe-persona-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-04-01",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "swipe-persona-db",
+      "database_id": "2648a7f4-54ad-4767-8594-df3c9ee95d28"
+    }
+  ],
+  "vars": {
+    "CORS_ORIGIN": "https://yushin0319.github.io"
+  }
+  // AUTH_TOKEN_HASH は wrangler secret で設定 (SHA-256 ハッシュ)
+}
