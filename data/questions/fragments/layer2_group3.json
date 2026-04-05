@@ -1,0 +1,442 @@
+[
+  {
+    "question_id": "q_code_aesthetic_001",
+    "text": "1行で書ける三項演算子より、if/else で3-4行に分けて変数名で意図を示す方が好きだ",
+    "loadings": {
+      "code_conciseness": -0.7,
+      "code_comment_density": 0.3,
+      "abstract_vs_concrete": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_002",
+    "text": "TypeScript で `arr.filter(Boolean).map(x => x.id)` のようなメソッドチェーンを見ると気持ちいい",
+    "loadings": {
+      "code_conciseness": 0.7,
+      "minimalism_vs_maximalism": 0.3,
+      "pattern_recognition": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_003",
+    "text": "早期 return で `if (!user) return null;` とネストを潰していくスタイルが気持ちいい",
+    "loadings": {
+      "code_conciseness": 0.6,
+      "minimalism_vs_maximalism": 0.3,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_004",
+    "text": "似た関数を3回書いてから、ようやく共通化するかを考え始める",
+    "loadings": {
+      "code_abstraction_timing": -0.7,
+      "pragmatism_vs_idealism": 0.3,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_005",
+    "text": "最初の1個目の関数を書く段階で、将来の汎用化を見越してジェネリクスや引数を設計する",
+    "loadings": {
+      "code_abstraction_timing": 0.7,
+      "abstract_vs_concrete": 0.4,
+      "time_horizon": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_006",
+    "text": "「とりあえず動くベタ書き」を先に通して、必要になったら抽象化する方が性に合う",
+    "loadings": {
+      "code_abstraction_timing": -0.6,
+      "pragmatism_vs_idealism": 0.4,
+      "decision_iteration": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_007",
+    "text": "pytest や Vitest では、関数1つに対して細かいケースを10個書くのが安心する",
+    "loadings": {
+      "code_test_granularity": 0.7,
+      "conscientiousness_order": 0.3,
+      "detail_vs_big_picture": -0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_008",
+    "text": "ユニットテストを大量に書くより、API を叩く統合テスト1本で挙動を確認したい",
+    "loadings": {
+      "code_test_granularity": -0.7,
+      "pragmatism_vs_idealism": 0.3,
+      "detail_vs_big_picture": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_009",
+    "text": "テストはまず `it('正常系')` と `it('異常系')` の2つだけ書いて、あとは実装しながら足す",
+    "loadings": {
+      "code_test_granularity": -0.5,
+      "decision_iteration": 0.4,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_code_aesthetic_010",
+    "text": "コメントは「何をしているか」ではなく「なぜこうしたか」を書くのが原則だ",
+    "loadings": {
+      "code_comment_density": 0.6,
+      "metacognition": 0.3,
+      "pragmatism_vs_idealism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_011",
+    "text": "命名が良ければコメントはほぼ不要、コードが自己説明的であるべきだ",
+    "loadings": {
+      "code_comment_density": -0.7,
+      "code_conciseness": 0.3,
+      "minimalism_vs_maximalism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_012",
+    "text": "「// TODO: ここ後で直す」というコメントを未来の自分のために積極的に残す",
+    "loadings": {
+      "code_comment_density": 0.5,
+      "metacognition": 0.3,
+      "time_horizon": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_code_aesthetic_013",
+    "text": "`any` や `unknown` を残すくらいなら、面倒でも型を 20行書いて縛りたい",
+    "loadings": {
+      "code_conciseness": -0.4,
+      "conscientiousness_order": 0.4,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_014",
+    "text": "変数名は `u` より `user`、`user` より `currentLoggedInUser` のように具体的に長い方を選ぶ",
+    "loadings": {
+      "code_conciseness": -0.6,
+      "code_comment_density": 0.3,
+      "abstract_vs_concrete": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_015",
+    "text": "他人の PR を見るときは、まずロジックよりファイル構成とディレクトリ命名をチェックする",
+    "loadings": {
+      "code_abstraction_timing": 0.4,
+      "detail_vs_big_picture": 0.5,
+      "conscientiousness_order": 0.4
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_code_aesthetic_016",
+    "text": "try/catch でエラーをまとめて1箇所に集約するより、失敗しうる1行ごとに Result 型で返したい",
+    "loadings": {
+      "code_test_granularity": 0.4,
+      "code_abstraction_timing": 0.4,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_017",
+    "text": "React コンポーネントは props が5個を超えたら即リファクタしたくなる",
+    "loadings": {
+      "code_conciseness": 0.5,
+      "code_abstraction_timing": 0.4,
+      "minimalism_vs_maximalism": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_018",
+    "text": "Biome や Ruff の警告は1個も残したくない、ゼロでなければ気持ち悪い",
+    "loadings": {
+      "code_comment_density": 0.3,
+      "conscientiousness_order": 0.6,
+      "cognitive_closure_need": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_019",
+    "text": "関数型っぽく `map`/`reduce` で書かれたコードより、`for` ループの方が読みやすいと感じる",
+    "loadings": {
+      "code_conciseness": -0.5,
+      "abstract_vs_concrete": -0.4,
+      "pragmatism_vs_idealism": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_020",
+    "text": "Hono や FastAPI のルーティングは、1ファイルに全部書かれている方が見通しが良くて好き",
+    "loadings": {
+      "code_conciseness": 0.5,
+      "code_abstraction_timing": -0.4,
+      "detail_vs_big_picture": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_decision_style_001",
+    "text": "Claude に相談するとき「A案とB案どっちがいい？」より「これで行け」と推してほしい",
+    "loadings": {
+      "decision_options_presentation": 0.7,
+      "ai_autonomy_grant": 0.4,
+      "decision_certainty_expression": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_002",
+    "text": "技術選定で迷ったら、まず3つの候補をスプレッドシートに並べて比較したい",
+    "loadings": {
+      "decision_options_presentation": -0.7,
+      "planning_vs_spontaneity": 0.4,
+      "systematic_vs_exploratory": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_003",
+    "text": "新しいライブラリは README を読む前に、まず `npm install` して動かしてみる",
+    "loadings": {
+      "decision_iteration": 0.7,
+      "planning_vs_spontaneity": -0.4,
+      "novelty_seeking": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_004",
+    "text": "実装に入る前に、設計ドキュメントや疑似コードを書いて頭の中を整理したい",
+    "loadings": {
+      "decision_iteration": -0.6,
+      "planning_vs_spontaneity": 0.5,
+      "systematic_vs_exploratory": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_005",
+    "text": "1発で正解のコードを書くより、動かしながら5回書き直す方が自分には合っている",
+    "loadings": {
+      "decision_iteration": 0.7,
+      "convergent_vs_divergent": 0.3,
+      "speed_vs_accuracy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_006",
+    "text": "Claude が「可能性があります」「かもしれません」と濁すより、「これが正解です」と言い切ってほしい",
+    "loadings": {
+      "decision_certainty_expression": 0.8,
+      "ai_autonomy_grant": 0.3,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_007",
+    "text": "断定されると不安になる、AI には「だいたい70%くらい」と確度を示してほしい",
+    "loadings": {
+      "decision_certainty_expression": -0.7,
+      "tolerance_ambiguity": 0.4,
+      "scientific_worldview": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_008",
+    "text": "個人プロジェクトの技術選定は「5年後もメンテできるか」を基準にしている",
+    "loadings": {
+      "decision_time_horizon": 0.7,
+      "time_horizon": 0.4,
+      "conscientiousness_duty": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_009",
+    "text": "「今日動けばそれでいい」を優先、5年後の保守性は動いてから考えればいい",
+    "loadings": {
+      "decision_time_horizon": -0.7,
+      "pragmatism_vs_idealism": 0.4,
+      "time_horizon": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_010",
+    "text": "Cloudflare Workers と Vercel で迷ったら、料金表を3時間眺めるより両方デプロイして試す",
+    "loadings": {
+      "decision_iteration": 0.6,
+      "decision_options_presentation": -0.3,
+      "pragmatism_vs_idealism": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_011",
+    "text": "AI に「最適解は3つあります、それぞれ説明します」と言われると親切だなと感じる",
+    "loadings": {
+      "decision_options_presentation": -0.6,
+      "ai_verbosity_preference": 0.4,
+      "tolerance_ambiguity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_012",
+    "text": "選択肢を3つ並べられるより、理由付きで1つに絞ってもらった方が前に進める",
+    "loadings": {
+      "decision_options_presentation": 0.7,
+      "cognitive_closure_need": 0.4,
+      "ai_autonomy_grant": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_013",
+    "text": "期限が迫ると、完璧を諦めて「70点で出す」決断を即座にできる",
+    "loadings": {
+      "decision_iteration": 0.4,
+      "pragmatism_vs_idealism": 0.5,
+      "speed_vs_accuracy": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_014",
+    "text": "失敗した実装は、原因を完全に突き止めてから次に進まないと気持ち悪い",
+    "loadings": {
+      "decision_iteration": -0.4,
+      "cognitive_closure_need": 0.5,
+      "metacognition": 0.4
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_015",
+    "text": "新機能を作るとき、5年後にどう拡張するかまで頭に入れてから着手する",
+    "loadings": {
+      "decision_time_horizon": 0.7,
+      "code_abstraction_timing": 0.3,
+      "planning_vs_spontaneity": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_016",
+    "text": "「とりあえず動くもの」を今日中に出すことを、完成度より優先する",
+    "loadings": {
+      "decision_time_horizon": -0.6,
+      "decision_iteration": 0.4,
+      "pragmatism_vs_idealism": 0.4
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_017",
+    "text": "Claude が「断言はできませんが」と前置きしてくると、もどかしくて読み飛ばしたくなる",
+    "loadings": {
+      "decision_certainty_expression": 0.7,
+      "ai_verbosity_preference": -0.3,
+      "trigger_caretaking_harassment": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_018",
+    "text": "n8n ワークフローは図に描いてから組むより、とりあえずノードを置いて繋ぎ始める",
+    "loadings": {
+      "decision_iteration": 0.6,
+      "planning_vs_spontaneity": -0.5,
+      "verbal_vs_visual": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_019",
+    "text": "バグを直すときは、3つの仮説を並べて検証順を決めてから手を動かす",
+    "loadings": {
+      "decision_options_presentation": -0.5,
+      "systematic_vs_exploratory": 0.4,
+      "decision_iteration": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_020",
+    "text": "AI の提案に対して「なるほど、でもこっちの方が良くない？」と反論を返すのが好きだ",
+    "loadings": {
+      "decision_certainty_expression": 0.3,
+      "ai_dissent_tolerance": 0.6,
+      "conflict_style_confront": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  }
+]

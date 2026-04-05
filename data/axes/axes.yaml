@@ -761,3 +761,295 @@ axes:
     description: ゲームに求める戦略性
     pole_low: カジュアル・反射神経系
     pole_high: 深い戦略・長考系
+
+  # ==================== 第2層: Claude相互作用・文化文脈・深層価値 (40軸) ====================
+
+  # ========== AI相互作用 (ai_interaction, 4軸) ==========
+  - axis_id: ai_verbosity_preference
+    category: ai_interaction
+    display_name: AI応答冗長性選好
+    description: Claudeからの返答にどれだけの長さ・詳細さを求めるか
+    pole_low: 詳しく説明してほしい、前提から
+    pole_high: 要点だけ、1-2行で済ませてほしい
+
+  - axis_id: ai_confirmation_expectation
+    category: ai_interaction
+    display_name: 確認↔自走期待
+    description: AIが手を動かす前に確認を求めることへの期待
+    pole_low: 毎回確認してから動いてほしい
+    pole_high: 黙って自走して結果だけ見せてほしい
+
+  - axis_id: ai_dissent_tolerance
+    category: ai_interaction
+    display_name: 反論・異議の歓迎度
+    description: AIが自分の意見に反論することへの耐性
+    pole_low: 同意基調で進めてほしい
+    pole_high: 遠慮なく反論・指摘してほしい
+
+  - axis_id: ai_autonomy_grant
+    category: ai_interaction
+    display_name: 判断権限委譲度
+    description: 判断そのものをAIに任せたいか
+    pole_low: 判断は自分がする、AIは手足
+    pole_high: 判断もAIに委ねて結果を採用する
+
+  # ========== 日本語レジスタ (ja_register, 4軸) ==========
+  - axis_id: ja_formality
+    category: ja_register
+    display_name: 敬語硬度選好
+    description: Claudeから返ってくる日本語の硬さ
+    pole_low: くだけた口語でいい
+    pole_high: 丁寧で硬い敬語がよい
+
+  - axis_id: ja_casual_markers
+    category: ja_register
+    display_name: 草・絵文字許容
+    description: 「w」「笑」「😅」等のカジュアル記号への耐性
+    pole_low: カジュアル記号は鬱陶しい
+    pole_high: カジュアル記号はむしろ欲しい
+
+  - axis_id: ja_metaphor_density
+    category: ja_register
+    display_name: 比喩・例え密度
+    description: 説明に比喩や例え話をどれだけ混ぜるか
+    pole_low: 直球で事実だけ述べてほしい
+    pole_high: 比喩や例え話で説明してほしい
+
+  - axis_id: ja_response_length
+    category: ja_register
+    display_name: 返答長さ許容度
+    description: Claudeの返答が長文になることへの耐性
+    pole_low: 1-3行で完結してほしい
+    pole_high: 長文で詳しく展開してほしい
+
+  # ========== 日本コンテンツ嗜好 (content_ja, 4軸) ==========
+  - axis_id: content_anime_manga
+    category: content_ja
+    display_name: アニメ・漫画親和性
+    description: アニメ・漫画への親しみと没入度
+    pole_low: アニメ・漫画はほとんど見ない
+    pole_high: アニメ・漫画が生活の中心
+
+  - axis_id: content_jpop_vocalo
+    category: content_ja
+    display_name: 邦楽・ボカロ親和性
+    description: 邦ロック・J-POP・ボカロ・アニソンへの親和性
+    pole_low: 邦楽にあまり触れない
+    pole_high: 邦楽・ボカロを日常的に聴く
+
+  - axis_id: content_sochage
+    category: content_ja
+    display_name: ソシャゲ・ゲーム親和性
+    description: スマホゲーム・ソシャゲ・コンシューマーゲームへの没入度
+    pole_low: ゲームはほとんどやらない
+    pole_high: ゲームにかなりの時間を使う
+
+  - axis_id: content_vtuber_streaming
+    category: content_ja
+    display_name: VTuber・配信文化親和性
+    description: VTuberやゲーム実況・配信文化への親和性
+    pole_low: 配信・VTuberを追わない
+    pole_high: 推しの配信者・VTuberがいる
+
+  # ========== コード美学 (code_aesthetic, 4軸) ==========
+  - axis_id: code_conciseness
+    category: code_aesthetic
+    display_name: コード簡潔↔明示
+    description: 良いコードの方向性
+    pole_low: 明示的で長くても読みやすい方が良い
+    pole_high: 簡潔に削ぎ落とされている方が良い
+
+  - axis_id: code_abstraction_timing
+    category: code_aesthetic
+    display_name: 抽象化タイミング
+    description: いつ抽象化を入れるか
+    pole_low: 3回繰り返してから抽象化する
+    pole_high: 最初から抽象化しておきたい
+
+  - axis_id: code_test_granularity
+    category: code_aesthetic
+    display_name: テスト粒度選好
+    description: 書くテストの粒度
+    pole_low: 統合テスト主体、ユニットは最小限
+    pole_high: 細かいユニットテストを網羅したい
+
+  - axis_id: code_comment_density
+    category: code_aesthetic
+    display_name: コメント密度選好
+    description: コード内コメントの量
+    pole_low: コードは自己説明的であるべき
+    pole_high: 意図や背景を積極的にコメントしたい
+
+  # ========== 意思決定スタイル (decision_style, 4軸) ==========
+  - axis_id: decision_iteration
+    category: decision_style
+    display_name: 1発正解↔試行錯誤
+    description: 解にたどり着く過程の好み
+    pole_low: 最初から正解を出したい
+    pole_high: 試行錯誤して洗練させたい
+
+  - axis_id: decision_options_presentation
+    category: decision_style
+    display_name: 選択肢提示↔推し提示
+    description: Claudeが提案するときの形式
+    pole_low: 複数案を並べてほしい
+    pole_high: 1つ推しで出してほしい
+
+  - axis_id: decision_time_horizon
+    category: decision_style
+    display_name: 長期↔短期思考
+    description: 判断時に見る時間軸
+    pole_low: 目の前の成果を優先
+    pole_high: 5年10年後を見据える
+
+  - axis_id: decision_certainty_expression
+    category: decision_style
+    display_name: 確率表現↔断定表現
+    description: 不確実性の伝え方
+    pole_low: 多分・可能性ありが好き
+    pole_high: 言い切ってほしい
+
+  # ========== 怒り・不機嫌トリガー (trigger_anger, 4軸) ==========
+  - axis_id: trigger_efficiency_harassment
+    category: trigger_anger
+    display_name: 効率化ハラ許容度
+    description: 頼んでない効率化提案への耐性
+    pole_low: 効率化を押し付けられると嫌
+    pole_high: 効率化提案はいつでも歓迎
+
+  - axis_id: trigger_caretaking_harassment
+    category: trigger_anger
+    display_name: 気遣いハラ許容度
+    description: 過剰な気遣い・配慮への耐性
+    pole_low: 気遣いすぎは鬱陶しい
+    pole_high: 気遣いは嬉しい
+
+  - axis_id: trigger_condescension
+    category: trigger_anger
+    display_name: 見下し態度耐性
+    description: 上から目線・説教口調への耐性
+    pole_low: 少しでも見下し口調だと許せない
+    pole_high: あまり気にならない
+
+  - axis_id: trigger_scope_drift
+    category: trigger_anger
+    display_name: スコープ逸脱耐性
+    description: 頼んでないことまで勝手にやられることへの耐性
+    pole_low: スコープ外の作業は嫌
+    pole_high: 気を利かせてくれると嬉しい
+
+  # ========== 情緒的支援 (emotional_support, 4軸) ==========
+  - axis_id: emo_encouragement
+    category: emotional_support
+    display_name: 励まし期待度
+    description: AIから励まされることへの期待
+    pole_low: 励ましは要らない
+    pole_high: 励ましてほしいときがある
+
+  - axis_id: emo_complaint_handling
+    category: emotional_support
+    display_name: 愚痴受容↔解決提案
+    description: 不満を言ったときに期待する応答
+    pole_low: すぐに解決策を出してほしい
+    pole_high: まず聞いてほしい
+
+  - axis_id: emo_empathy_distance
+    category: emotional_support
+    display_name: 共感距離
+    description: AIに情緒的に寄り添ってほしいか
+    pole_low: ドライで事実ベースでいい
+    pole_high: 寄り添ってほしい
+
+  - axis_id: emo_praise_seeking
+    category: emotional_support
+    display_name: 評価・称賛欲求
+    description: 褒められることへの欲求
+    pole_low: 褒められると逆に引く
+    pole_high: 褒められると嬉しい
+
+  # ========== 創造・遊び方向性 (creative_play, 4軸) ==========
+  - axis_id: play_utility_vs_fun
+    category: creative_play
+    display_name: 実用↔遊び
+    description: 作るもの・使うものの動機
+    pole_low: 実用第一、役に立つこと
+    pole_high: 面白さ第一、役に立たなくても
+
+  - axis_id: play_waste_vs_minimal
+    category: creative_play
+    display_name: ムダ↔削ぎ落とし
+    description: 無駄・余白への態度
+    pole_low: ムダや余白にも味がある
+    pole_high: 削ぎ落としたい、最小限が美
+
+  - axis_id: play_nostalgia_vs_future
+    category: creative_play
+    display_name: 懐古↔未来志向
+    description: 創作・嗜好の方向
+    pole_low: 過去の良いものを愛でる
+    pole_high: まだ見ぬ未来のものを作る
+
+  - axis_id: play_orthodox_vs_hack
+    category: creative_play
+    display_name: 正道↔ハック
+    description: 問題解決の美学
+    pole_low: 正道・王道を歩む
+    pole_high: ハックで出し抜く方が楽しい
+
+  # ========== 生活リズム (life_rhythm, 4軸) ==========
+  - axis_id: rhythm_focus_protection
+    category: life_rhythm
+    display_name: 集中モード保護欲求
+    description: 深い集中状態を守りたい欲求
+    pole_low: 割り込まれても平気
+    pole_high: 集中を守るためなら多少の不便は飲む
+
+  - axis_id: rhythm_interruption_tolerance
+    category: life_rhythm
+    display_name: 中断耐性
+    description: 作業中の割り込みへの耐性
+    pole_low: 中断されるとイラつく
+    pole_high: 中断されてもすぐ戻れる
+
+  - axis_id: rhythm_music_with_work
+    category: life_rhythm
+    display_name: 作業音楽併用
+    description: 作業中に音楽を聴くか
+    pole_low: 無音で集中したい
+    pole_high: 音楽ないと集中できない
+
+  - axis_id: rhythm_night_depth
+    category: life_rhythm
+    display_name: 夜型深度
+    description: 夜遅くまで起きているか
+    pole_low: 朝型、夜は早く寝る
+    pole_high: 深夜型、深い時間まで起きている
+
+  # ========== 深層価値 (deep_values, 4軸) ==========
+  - axis_id: value_abandoned
+    category: deep_values
+    display_name: 諦めの度合い
+    description: 人生で諦めたもの・手放したものの多さ
+    pole_low: まだほとんど諦めていない
+    pole_high: 既に多くを諦めてきた
+
+  - axis_id: value_nonnegotiable
+    category: deep_values
+    display_name: 譲れないものの明確さ
+    description: どうしても譲れない価値の明確さ
+    pole_low: 大体のことは妥協できる
+    pole_high: 譲れないものがはっきりある
+
+  - axis_id: value_5year_vision
+    category: deep_values
+    display_name: 5年後像の明瞭度
+    description: 5年後の自分像がどれだけ見えているか
+    pole_low: 今日・今週しか見えない
+    pole_high: 5年後の像がはっきりある
+
+  - axis_id: value_mortality
+    category: deep_values
+    display_name: 死生観の鋭さ
+    description: 死を意識して生きているか
+    pole_low: 死を意識することはほとんどない
+    pole_high: 死を常に意識して生きている
