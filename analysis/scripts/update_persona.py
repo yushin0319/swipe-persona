@@ -24,16 +24,16 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import os
 import sys
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from bayes_irt import (  # noqa: E402
-    Answer,
+from _api_client import fetch_answers, get_api_env
+
+from bayes_irt import (
     estimate_persona,
     format_markdown,
     load_axes,
@@ -41,24 +41,6 @@ from bayes_irt import (  # noqa: E402
 )
 
 DEFAULT_LOCAL_PATH = "~/.claude/personas/yushin.md"
-
-
-def fetch_answers(api_url: str, token: str) -> list[Answer]:
-    """Worker /api/persona から全回答を取得する."""
-    req = urllib.request.Request(
-        f"{api_url.rstrip('/')}/api/persona",
-        headers={
-            "Authorization": f"Bearer {token}",
-            # Cloudflare WAF が Python の default UA をブロックするため明示
-            "User-Agent": "swipe-persona-updater/1.0",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=30) as res:  # noqa: S310
-        payload = json.loads(res.read().decode("utf-8"))
-    return [
-        Answer(question_id=a["question_id"], response=int(a["response"]))
-        for a in payload["answers"]
-    ]
 
 
 def main() -> int:
@@ -78,14 +60,7 @@ def main() -> int:
     parser.add_argument("--prior-std", type=float, default=1.0)
     args = parser.parse_args()
 
-    api_url = os.environ.get("SWIPE_PERSONA_API_URL")
-    token = os.environ.get("SWIPE_PERSONA_API_TOKEN")
-    if not api_url or not token:
-        print(
-            "ERROR: SWIPE_PERSONA_API_URL と SWIPE_PERSONA_API_TOKEN を環境変数に設定してください",
-            file=sys.stderr,
-        )
-        return 2
+    api_url, token = get_api_env()
 
     print(f"fetching answers from {api_url}...", file=sys.stderr)
     answers = fetch_answers(api_url, token)
@@ -120,10 +95,11 @@ def main() -> int:
     print("\n=== 確信度の高い軸 TOP 10 ===", file=sys.stderr)
     for axis in ranked[:10]:
         info = persona.axes[axis.axis_id]
-        print(
-            f"  {axis.display_name:20} {info['mean']:+.2f} ± {info['std']:.2f} (n={info['n_informed']})",
-            file=sys.stderr,
-        )
+        name = axis.display_name
+        mean = info["mean"]
+        std = info["std"]
+        n = info["n_informed"]
+        print(f"  {name:20} {mean:+.2f} ± {std:.2f} (n={n})", file=sys.stderr)
 
     total_answered = sum(1 for a in answers)
     print(f"\n回答済み: {total_answered} / {len(questions)}", file=sys.stderr)

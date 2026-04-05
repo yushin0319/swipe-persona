@@ -30,36 +30,20 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import subprocess
 import sys
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from bayes_irt import (  # noqa: E402
-    Answer,
+from _api_client import fetch_answers, get_api_env
+
+from bayes_irt import (
     estimate_persona,
     load_axes,
     load_questions,
 )
-
-
-def fetch_answers(api_url: str, token: str) -> list[Answer]:
-    req = urllib.request.Request(
-        f"{api_url.rstrip('/')}/api/persona",
-        headers={
-            "Authorization": f"Bearer {token}",
-            "User-Agent": "swipe-persona-updater/1.0",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=30) as res:  # noqa: S310
-        payload = json.loads(res.read().decode("utf-8"))
-    return [
-        Answer(question_id=a["question_id"], response=int(a["response"]))
-        for a in payload["answers"]
-    ]
 
 
 def rank_uncertain_axes(persona, axes, top_n: int) -> list:
@@ -88,9 +72,7 @@ def build_prompt(uncertain_rows, axes_all, existing_ids: set[str], count: int) -
         )
 
     # 既存軸一覧 (副軸として使うため、idとdisplay_nameのみ)
-    all_axis_summary = "\n".join(
-        f"- `{a.axis_id}`: {a.display_name}" for a in axes_all
-    )
+    all_axis_summary = "\n".join(f"- `{a.axis_id}`: {a.display_name}" for a in axes_all)
 
     sample_id_prefix = "q_targeted"
     existing_count = sum(1 for i in existing_ids if i.startswith(sample_id_prefix))
@@ -153,8 +135,8 @@ n_informed が少なく、確証が弱い軸です:
 
 def call_claude_headless(prompt: str) -> str:
     """claude -p で headless 実行して stdout を取得."""
-    result = subprocess.run(  # noqa: S603
-        ["claude", "-p", prompt],  # noqa: S607
+    result = subprocess.run(
+        ["claude", "-p", prompt],
         capture_output=True,
         text=True,
         encoding="utf-8",
@@ -206,11 +188,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    api_url = os.environ.get("SWIPE_PERSONA_API_URL")
-    token = os.environ.get("SWIPE_PERSONA_API_TOKEN")
-    if not api_url or not token:
-        print("ERROR: SWIPE_PERSONA_API_URL と SWIPE_PERSONA_API_TOKEN を設定してください", file=sys.stderr)
-        return 2
+    api_url, token = get_api_env()
 
     print("fetching answers & running estimation...", file=sys.stderr)
     answers = fetch_answers(api_url, token)
