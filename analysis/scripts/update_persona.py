@@ -6,19 +6,15 @@ Usage:
     export SWIPE_PERSONA_API_TOKEN=<sha256-hash>
     uv run python analysis/scripts/update_persona.py
 
-    # ローカル配信先を変えたい場合 (デフォルト ~/.claude/personas/yushin.md)
-    uv run python analysis/scripts/update_persona.py --local-path ~/path/to/persona.md
-
-    # 特定の stdout ファイルにも書きたい場合
-    uv run python analysis/scripts/update_persona.py --also-write analysis/real_persona.md
+    # 配信先を変えたい場合 (デフォルト: swipe-persona/persona/yushin.md)
+    uv run python analysis/scripts/update_persona.py --output path/to/persona.md
 
 動作:
     1. Worker API の /api/persona から全回答を取得 (Bearer 認証)
     2. bayes_irt で 145軸を推定
-    3. persona.md を生成して:
-        - ~/.claude/personas/yushin.md にコピー (Claudeセッション開始時参照)
-        - analysis/real_persona.md にも書く (リポ内ローカル、.gitignore 済)
-    4. 概況 (答え済問題数、確信度の高い軸 TOP10) を stdout に出す
+    3. persona.md を生成して swipe-persona/persona/yushin.md に書き出し
+       (リポ内で tracked、次セッション以降 Claude が参照)
+    4. 概況 (答え済問題数、確信度の高い軸 TOP10) を stderr に出す
 """
 
 from __future__ import annotations
@@ -40,8 +36,6 @@ from bayes_irt import (
     load_questions,
 )
 
-DEFAULT_LOCAL_PATH = "~/.claude/personas/yushin.md"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -49,13 +43,9 @@ def main() -> int:
     parser.add_argument("--questions", default=str(here / "data/questions/questions.json"))
     parser.add_argument("--axes", default=str(here / "data/axes/axes.yaml"))
     parser.add_argument(
-        "--local-path",
-        default=DEFAULT_LOCAL_PATH,
-        help="Claude セッションから参照する配信先 (デフォルト ~/.claude/personas/yushin.md)",
-    )
-    parser.add_argument(
-        "--also-write",
-        help="リポ内ローカルにも書きたい場合のパス (例: analysis/real_persona.md)",
+        "--output",
+        default=str(here / "persona" / "yushin.md"),
+        help="persona.md 書き出し先 (デフォルト swipe-persona/persona/yushin.md)",
     )
     parser.add_argument("--prior-std", type=float, default=1.0)
     args = parser.parse_args()
@@ -74,18 +64,10 @@ def main() -> int:
     persona = estimate_persona(answers, questions, axes, prior_std=args.prior_std)
     md = format_markdown(persona, axes)
 
-    # ローカル配信 (~/.claude/personas/yushin.md)
-    local_path = Path(os.path.expanduser(args.local_path))
-    local_path.parent.mkdir(parents=True, exist_ok=True)
-    local_path.write_text(md, encoding="utf-8")
-    print(f"wrote {local_path}", file=sys.stderr)
-
-    # 追加書き込み (リポ内ローカル等)
-    if args.also_write:
-        also = Path(args.also_write)
-        also.parent.mkdir(parents=True, exist_ok=True)
-        also.write_text(md, encoding="utf-8")
-        print(f"wrote {also}", file=sys.stderr)
+    out_path = Path(os.path.expanduser(args.output))
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(md, encoding="utf-8")
+    print(f"wrote {out_path}", file=sys.stderr)
 
     # サマリー: std の小さい (確信度の高い) 軸 TOP10
     ranked = sorted(

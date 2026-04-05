@@ -36,8 +36,10 @@ output/
 *.sqlite
 *.db
 
-# 個人データ (湧心くんの回答・persona 推定結果)
+# 個人データ (湧心くんの生回答)
 analysis/real_answers.json
 analysis/real_persona.md
 analysis/smoke_answers.json
 analysis/smoke_out.md
+
+# persona/yushin.md はリポ内で tracked (update_persona.py の出力先)

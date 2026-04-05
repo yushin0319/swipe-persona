@@ -23,8 +23,7 @@ uv run --project analysis python analysis/scripts/update_persona.py
 動作:
 - Worker API から全回答を fetch
 - bayes_irt で 145軸を推定
-- `~/.claude/personas/yushin.md` に書き出し (Claude セッション開始時に参照される)
-- `analysis/real_persona.md` にもコピー (リポ内ローカル、.gitignore 済)
+- `swipe-persona/persona/yushin.md` に書き出し (tracked、Claude セッション開始時参照)
 - 確信度の高い軸 TOP10 を stderr に表示
 
 ### 3. 不確実性の高い軸を狙った新問題を生成する (`generate_targeted_questions.py`)
