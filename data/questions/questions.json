@@ -2464,5 +2464,2214 @@
     },
     "difficulty": 0.0,
     "discrimination": 1.3
+  },
+  {
+    "question_id": "q_ai_interaction_001",
+    "text": "Claudeが作業を始める前に『どういう方針で進めますか？』と聞いてくると、いちいち面倒だなと感じる",
+    "loadings": {
+      "ai_confirmation_expectation": 0.75,
+      "ai_autonomy_grant": 0.35,
+      "trigger_efficiency_harassment": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_002",
+    "text": "Claudeには『了解、進めます』と言ってすぐ手を動かしてほしい。確認は後でいい",
+    "loadings": {
+      "ai_confirmation_expectation": 0.7,
+      "ai_autonomy_grant": 0.4,
+      "speed_vs_accuracy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_003",
+    "text": "Claudeが重要なファイルを書き換える前には、必ず『このファイルを編集していいですか？』と一度止まってほしい",
+    "loadings": {
+      "ai_confirmation_expectation": -0.75,
+      "ai_autonomy_grant": -0.35,
+      "conscientiousness_order": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_004",
+    "text": "Claudeがタスクの途中で『一応確認ですが…』と細かく聞いてくると、ありがたいより鬱陶しい方が勝つ",
+    "loadings": {
+      "ai_confirmation_expectation": 0.7,
+      "trigger_efficiency_harassment": 0.35,
+      "ai_autonomy_grant": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_005",
+    "text": "Claudeが自分の考えに対して『いや、それは違うと思います』と真っ向から反論してきても、むしろ嬉しい",
+    "loadings": {
+      "ai_dissent_tolerance": 0.75,
+      "conflict_style_confront": 0.3,
+      "trigger_condescension": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_006",
+    "text": "Claudeに『その設計、後で困りますよ』と指摘されると、ムッとするより『言ってくれてありがとう』と思う",
+    "loadings": {
+      "ai_dissent_tolerance": 0.7,
+      "metacognition": 0.3,
+      "trigger_condescension": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_007",
+    "text": "Claudeが『おっしゃる通りです』『その方針で進めます』と同意基調で返してくるほうが気持ちよく作業できる",
+    "loadings": {
+      "ai_dissent_tolerance": -0.7,
+      "emo_encouragement": 0.3,
+      "agreeableness": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_008",
+    "text": "Claudeが『その実装、筋が悪いです』と遠慮なくダメ出ししてくる方が、結果的に良いものが作れる",
+    "loadings": {
+      "ai_dissent_tolerance": 0.75,
+      "mastery_vs_performance": 0.3,
+      "speed_vs_accuracy": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_009",
+    "text": "Claudeに『AとBとCのどれがいいですか？』と3択で聞かれるより、『Bで行きましょう』と1つ推してくれたほうが助かる",
+    "loadings": {
+      "decision_options_presentation": -0.7,
+      "ai_autonomy_grant": 0.35,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_010",
+    "text": "Claudeが判断に迷う場面では、自分の意見を言わず選択肢を並べてくれる方が安心する",
+    "loadings": {
+      "ai_autonomy_grant": -0.7,
+      "decision_options_presentation": 0.4,
+      "ai_confirmation_expectation": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_011",
+    "text": "『このタスクはClaudeに任せたから、結果だけ見ればいい』と割り切れる方だ",
+    "loadings": {
+      "ai_autonomy_grant": 0.75,
+      "trust_threshold": 0.3,
+      "ai_confirmation_expectation": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_012",
+    "text": "Claudeに作業を振っても、最終的な判断は全部自分でやりたい。AIは手足であって脳じゃない",
+    "loadings": {
+      "ai_autonomy_grant": -0.75,
+      "determinism_vs_agency": 0.3,
+      "authority_vs_autonomy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_013",
+    "text": "Claudeから返ってくる答えは、前置きも背景説明もいらない。結論だけ1-2行で欲しい",
+    "loadings": {
+      "ai_verbosity_preference": 0.75,
+      "ja_response_length": 0.4,
+      "speed_vs_accuracy": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_014",
+    "text": "Claudeには『なぜそうしたか』の理由も含めて、背景ごと丁寧に説明してほしい",
+    "loadings": {
+      "ai_verbosity_preference": -0.75,
+      "ja_response_length": -0.4,
+      "openness_ideas": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_015",
+    "text": "Claudeが『まず〇〇について説明しますと…』と長い前置きをしてから本題に入ると、読む前に閉じたくなる",
+    "loadings": {
+      "ai_verbosity_preference": 0.7,
+      "trigger_efficiency_harassment": 0.35,
+      "ja_response_length": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_016",
+    "text": "Claudeが『多分』『かもしれません』『おそらく』を連発すると、信頼度が下がってイラッとする",
+    "loadings": {
+      "decision_certainty_expression": 0.7,
+      "ai_dissent_tolerance": 0.3,
+      "trigger_condescension": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_017",
+    "text": "Claudeが頼んでもいないのに隣接コードを勝手にリファクタし始めると、それだけで1日が台無しになる",
+    "loadings": {
+      "trigger_scope_drift": 0.75,
+      "ai_autonomy_grant": -0.3,
+      "boundary_firmness": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_018",
+    "text": "Claudeがテスト失敗時に『多分これが原因かもしれません』と推測を並べるより、黙って原因特定してから報告してほしい",
+    "loadings": {
+      "ai_verbosity_preference": 0.7,
+      "decision_certainty_expression": 0.35,
+      "ai_autonomy_grant": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_019",
+    "text": "Claudeが『承知しました。では進めます』と言った後、本当に黙って10分作業してくれるのが一番嬉しい",
+    "loadings": {
+      "ai_autonomy_grant": 0.7,
+      "ai_confirmation_expectation": 0.4,
+      "rhythm_focus_protection": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ai_interaction_020",
+    "text": "Claudeが『この方針で本当に大丈夫ですか？確認させてください』と念押ししてくれると、任せた安心感がある",
+    "loadings": {
+      "ai_confirmation_expectation": -0.7,
+      "trust_threshold": -0.3,
+      "conscientiousness_duty": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_001",
+    "text": "Claudeには『〜です、〜ます』の丁寧語よりも、『〜だよ』『〜だね』みたいにくだけた口調で話しかけてほしい",
+    "loadings": {
+      "ja_formality": -0.75,
+      "ja_casual_markers": 0.35,
+      "self_disclosure": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_002",
+    "text": "Claudeが敬語を崩して『それ無理っぽいわ』みたいに返してくると、距離が縮まった気がして嬉しい",
+    "loadings": {
+      "ja_formality": -0.7,
+      "ja_casual_markers": 0.3,
+      "emo_empathy_distance": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_003",
+    "text": "AIには礼儀正しく『承知いたしました』『お待たせいたしました』と言ってほしい。くだけた口調は軽く感じる",
+    "loadings": {
+      "ja_formality": 0.75,
+      "ja_casual_markers": -0.3,
+      "tradition_vs_innovation": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_004",
+    "text": "Claudeが『了解っす』『オッケーです』みたいに砕けて返してくると、真面目に仕事する気あるのか不安になる",
+    "loadings": {
+      "ja_formality": 0.7,
+      "ja_casual_markers": -0.35,
+      "trust_threshold": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_005",
+    "text": "Claudeの返事に『😅』『🙏』みたいな絵文字がちょっと混ざっていると、堅苦しくなくて助かる",
+    "loadings": {
+      "ja_casual_markers": 0.75,
+      "ja_formality": -0.3,
+      "humor_deployment": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_006",
+    "text": "Claudeが『うまくいきました！w』と文末に『w』や『笑』を入れてくると、正直鬱陶しい",
+    "loadings": {
+      "ja_casual_markers": -0.75,
+      "humor_style_dry": 0.3,
+      "ja_formality": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_007",
+    "text": "技術的な返答の中にも『！』や絵文字が適度に入っていると、読む気になる",
+    "loadings": {
+      "ja_casual_markers": 0.7,
+      "emo_encouragement": 0.3,
+      "ja_formality": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_008",
+    "text": "ドキュメントや返答に顔文字・絵文字が混ざると、プロっぽくなくて萎える",
+    "loadings": {
+      "ja_casual_markers": -0.7,
+      "ja_formality": 0.35,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_009",
+    "text": "Claudeが『これは例えるなら、家の土台をコンクリートで固めるようなもので…』と比喩で説明してくれると腹落ちしやすい",
+    "loadings": {
+      "ja_metaphor_density": 0.75,
+      "abstract_vs_concrete": -0.3,
+      "verbal_vs_visual": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_010",
+    "text": "Claudeの説明に『〜みたいなもの』『〜のようなイメージ』が多いと、まどろっこしい。直球で事実を言ってほしい",
+    "loadings": {
+      "ja_metaphor_density": -0.75,
+      "ai_verbosity_preference": 0.3,
+      "abstract_vs_concrete": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_011",
+    "text": "概念を説明するときは、物語や比喩を使って情景が浮かぶように語ってくれた方が記憶に残る",
+    "loadings": {
+      "ja_metaphor_density": 0.7,
+      "narrative_vs_factual": 0.4,
+      "verbal_vs_visual": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_012",
+    "text": "『APIとはレストランの注文受付のようなもの』みたいな例え話は、むしろ理解を遅らせるので要らない",
+    "loadings": {
+      "ja_metaphor_density": -0.7,
+      "narrative_vs_factual": -0.3,
+      "abstract_vs_concrete": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_013",
+    "text": "Claudeの返答は、多少長くても背景・理由・手順まで全部書いてある方が安心する",
+    "loadings": {
+      "ja_response_length": 0.75,
+      "ai_verbosity_preference": -0.4,
+      "tolerance_ambiguity": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_014",
+    "text": "Claudeには3行以内で返してほしい。スクロールしないと読めない返答は、その時点で読む気が失せる",
+    "loadings": {
+      "ja_response_length": -0.75,
+      "ai_verbosity_preference": 0.4,
+      "trigger_efficiency_harassment": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_015",
+    "text": "Claudeが画面3ページ分の説明を返してきても、全部読みたい派だ",
+    "loadings": {
+      "ja_response_length": 0.75,
+      "ai_verbosity_preference": -0.35,
+      "curiosity_breadth": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_016",
+    "text": "簡単な質問に対してClaudeが長文で答えてくると、『そんなに書かなくていいよ』と思ってしまう",
+    "loadings": {
+      "ja_response_length": -0.7,
+      "ai_verbosity_preference": 0.35,
+      "ja_formality": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_017",
+    "text": "Claudeに『あい』『おk』『りょ』と短く返されると、ちゃんと聞いてくれてるのか不安になる",
+    "loadings": {
+      "ja_formality": 0.7,
+      "ja_casual_markers": -0.3,
+      "ai_confirmation_expectation": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_018",
+    "text": "Claudeがコード説明で『このfunctionはasyncでfetchしてresponseをparseします』と英語混じりで話すのは自然でいい",
+    "loadings": {
+      "ja_formality": -0.5,
+      "ja_casual_markers": 0.35,
+      "code_conciseness": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_019",
+    "text": "Claudeには事実を淡々と短文で返してほしい。『！』も『w』も比喩もいらない",
+    "loadings": {
+      "ja_response_length": -0.6,
+      "ja_casual_markers": -0.5,
+      "ja_metaphor_density": -0.4,
+      "humor_style_dry": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_ja_register_020",
+    "text": "Claudeが湧心くんを『湧心くん』と呼んでカジュアルに話しかけてくる方が、『ユーザー様』と呼ばれるより10倍やる気が出る",
+    "loadings": {
+      "ja_formality": -0.7,
+      "ja_casual_markers": 0.3,
+      "emo_empathy_distance": 0.3,
+      "affiliation_motive": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_001",
+    "text": "週末に新作の深夜アニメをイッキ見して朝を迎えるのは、罪悪感より満足感が勝つ",
+    "loadings": {
+      "content_anime_manga": 0.7,
+      "rhythm_night_depth": 0.4,
+      "hedonic_vs_eudaimonic": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_002",
+    "text": "新海誠の新作映画は公開初週に観に行きたい",
+    "loadings": {
+      "content_anime_manga": 0.65,
+      "openness_aesthetic": 0.3,
+      "nostalgia_affinity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_003",
+    "text": "エヴァやまどマギのように、世界観の裏に張られた伏線を考察する時間が楽しい",
+    "loadings": {
+      "content_anime_manga": 0.6,
+      "character_vs_worldbuilding": 0.35,
+      "pattern_recognition": 0.3,
+      "dark_content_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_content_ja_004",
+    "text": "京アニ作品の日常描写(ユーフォ、ハルヒ、けいおん等)を見ていると時間を忘れる",
+    "loadings": {
+      "content_anime_manga": 0.6,
+      "aesthetic_complexity": 0.3,
+      "autotelic_flow": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_005",
+    "text": "週刊少年ジャンプの新連載は毎週チェックしたいタイプだ",
+    "loadings": {
+      "content_anime_manga": 0.6,
+      "serial_vs_oneshot": 0.4,
+      "novelty_seeking": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_006",
+    "text": "ダンジョン飯やよつばと!のような、作者のこだわりが細部に宿る漫画が好きだ",
+    "loadings": {
+      "content_anime_manga": 0.55,
+      "craft_appreciation": 0.35,
+      "detail_vs_big_picture": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_007",
+    "text": "チェンソーマンや進撃の巨人のような、救いの少ない物語のほうが心に残る",
+    "loadings": {
+      "content_anime_manga": 0.55,
+      "dark_content_affinity": 0.4,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_008",
+    "text": "米津玄師の新曲が出たら、とりあえず全曲その日のうちに聴いてみる",
+    "loadings": {
+      "content_jpop_vocalo": 0.7,
+      "novelty_seeking": 0.25,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_009",
+    "text": "YOASOBIやずとまよ、ヨルシカなど、物語を下敷きにした邦楽が好きだ",
+    "loadings": {
+      "content_jpop_vocalo": 0.65,
+      "narrative_vs_factual": 0.3,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_010",
+    "text": "初音ミクなどボカロ曲のプレイリストを普段から聴いている",
+    "loadings": {
+      "content_jpop_vocalo": 0.7,
+      "rhythm_night_depth": 0.3,
+      "melancholy_affinity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_011",
+    "text": "amazarashiや椎名林檎のような、歌詞の湿度が高いアーティストに惹かれる",
+    "loadings": {
+      "content_jpop_vocalo": 0.6,
+      "melancholy_affinity": 0.4,
+      "ja_metaphor_density": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_012",
+    "text": "カラオケに行ったらアニソン・ボカロ・ゲーソンばかり入れてしまう",
+    "loadings": {
+      "content_jpop_vocalo": 0.6,
+      "content_anime_manga": 0.35,
+      "ja_casual_markers": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_content_ja_013",
+    "text": "FGOや原神のようなソシャゲのイベントが始まると、スケジュールをそれ優先で組む",
+    "loadings": {
+      "content_sochage": 0.75,
+      "achievement_drive": 0.25,
+      "character_vs_worldbuilding": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_content_ja_014",
+    "text": "ペルソナや龍が如くのような、腰を据えて長く遊ぶRPGに時間を注ぐのが好きだ",
+    "loadings": {
+      "content_sochage": 0.6,
+      "character_vs_worldbuilding": 0.35,
+      "time_horizon": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_015",
+    "text": "スプラトゥーンやモンハンで、夜中に気づくと数時間経っているタイプだ",
+    "loadings": {
+      "content_sochage": 0.65,
+      "rhythm_night_depth": 0.35,
+      "autotelic_flow": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_016",
+    "text": "逆転裁判やダンガンロンパのような、ロジックと物語を両立させたゲームが刺さる",
+    "loadings": {
+      "content_sochage": 0.55,
+      "narrative_vs_factual": 0.3,
+      "analytical_vs_intuitive": -0.25,
+      "game_strategic_depth": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_017",
+    "text": "ホロライブやにじさんじに、ほぼ毎日配信を追っている推しがいる",
+    "loadings": {
+      "content_vtuber_streaming": 0.75,
+      "affiliation_motive": 0.3,
+      "social_approval_need": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_content_ja_018",
+    "text": "作業中にVTuberや配信者のアーカイブを流していると捗る",
+    "loadings": {
+      "content_vtuber_streaming": 0.65,
+      "rhythm_music_with_work": 0.35,
+      "social_energy_recovery": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_019",
+    "text": "同人誌即売会やpixiv、ニコニコ動画といった二次創作の文化圏に愛着がある",
+    "loadings": {
+      "content_anime_manga": 0.45,
+      "content_vtuber_streaming": 0.3,
+      "consumption_vs_creation": 0.3,
+      "loyalty_vs_universalism": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_020",
+    "text": "シュタゲや虚淵玄作品のように、終盤で物語がひっくり返る構成にゾクッとする",
+    "loadings": {
+      "content_anime_manga": 0.55,
+      "fiction_genre_scifi": 0.35,
+      "dark_content_affinity": 0.3,
+      "pattern_recognition": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_001",
+    "text": "役に立たないけど笑える工作やアプリを作るほうが、実用的なツールより楽しい",
+    "loadings": {
+      "play_utility_vs_fun": 0.75,
+      "humor_style_dry": 0.3,
+      "consumption_vs_creation": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_002",
+    "text": "自分の作ったものに、意味のない小ネタやイースターエッグを仕込みたくなる",
+    "loadings": {
+      "play_utility_vs_fun": 0.6,
+      "play_waste_vs_minimal": -0.4,
+      "humor_deployment": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_003",
+    "text": "「これ何の役に立つの?」と聞かれるような創作が、一番やっていて楽しい",
+    "loadings": {
+      "play_utility_vs_fun": 0.7,
+      "intrinsic_motivation": 0.35,
+      "pragmatism_vs_idealism": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_004",
+    "text": "削ぎ落とされたミニマルなデザインより、余白に小ネタが詰まっている方が好きだ",
+    "loadings": {
+      "play_waste_vs_minimal": -0.7,
+      "minimalism_vs_maximalism": -0.4,
+      "ornate_vs_austere": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_005",
+    "text": "無印良品のような引き算の美学に強く共感する",
+    "loadings": {
+      "play_waste_vs_minimal": 0.7,
+      "minimalism_vs_maximalism": 0.4,
+      "wabi_sabi": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_006",
+    "text": "「無駄だけど味がある」遠回りの表現の方が、最短の正解より記憶に残る",
+    "loadings": {
+      "play_waste_vs_minimal": -0.65,
+      "aesthetic_complexity": 0.3,
+      "narrative_vs_factual": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_007",
+    "text": "MOTHERやファミコン時代のゲームのような、古き良き手触りを今も愛でたい",
+    "loadings": {
+      "play_nostalgia_vs_future": -0.7,
+      "nostalgia_affinity": 0.4,
+      "content_sochage": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_008",
+    "text": "「まだ世界にないもの」を作るほうが、既存の良作を守り継ぐより心が躍る",
+    "loadings": {
+      "play_nostalgia_vs_future": 0.75,
+      "novelty_seeking": 0.35,
+      "techno_optimism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_creative_play_009",
+    "text": "レトロ喫茶や昭和歌謡、フィルム写真の質感に惹かれる",
+    "loadings": {
+      "play_nostalgia_vs_future": -0.65,
+      "nostalgia_affinity": 0.4,
+      "classical_vs_contemporary": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_creative_play_010",
+    "text": "生成AIや最新の技術で、これまで不可能だった表現を試すのがワクワクする",
+    "loadings": {
+      "play_nostalgia_vs_future": 0.7,
+      "techno_optimism": 0.35,
+      "novelty_seeking": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_011",
+    "text": "王道の手順を踏むより、抜け道やハックで出し抜く方が気持ちいい",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.75,
+      "tradition_vs_innovation": 0.3,
+      "authority_vs_autonomy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_creative_play_012",
+    "text": "公式が想定していない使い方を見つけると、見つけた本人に興奮する",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.7,
+      "curiosity_breadth": 0.3,
+      "convergent_vs_divergent": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_013",
+    "text": "ゲームは攻略本を読む前に、まず自分でバグ技や小技を探したい",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.65,
+      "content_sochage": 0.3,
+      "systematic_vs_exploratory": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_014",
+    "text": "正攻法で着実にレベルを上げる方が、裏技で飛び越えるより満足度が高い",
+    "loadings": {
+      "play_orthodox_vs_hack": -0.7,
+      "conscientiousness": 0.3,
+      "mastery_vs_performance": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_015",
+    "text": "ジブリのような「手で描かれた時間」が見える作品に強く惹かれる",
+    "loadings": {
+      "play_nostalgia_vs_future": -0.55,
+      "craft_appreciation": 0.4,
+      "content_anime_manga": 0.35,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_016",
+    "text": "役に立たない発明を紹介する動画や同人ハードを見ると、作った人を尊敬する",
+    "loadings": {
+      "play_utility_vs_fun": 0.6,
+      "consumption_vs_creation": 0.25,
+      "humor_style_dry": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_creative_play_017",
+    "text": "シンプルで洗練されたUIより、遊び心のあるアニメーションがあるUIの方が好きだ",
+    "loadings": {
+      "play_waste_vs_minimal": -0.6,
+      "play_utility_vs_fun": 0.35,
+      "minimalism_vs_maximalism": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_018",
+    "text": "「余白」「間」「侘び寂び」といった日本的な美意識にしっくりくる",
+    "loadings": {
+      "play_waste_vs_minimal": 0.55,
+      "wabi_sabi": 0.45,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_019",
+    "text": "ニコニコ動画の「作ってみた」文化のように、ふざけた熱量の創作が好きだ",
+    "loadings": {
+      "play_utility_vs_fun": 0.55,
+      "play_orthodox_vs_hack": 0.35,
+      "humor_deployment": 0.3,
+      "content_vtuber_streaming": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_020",
+    "text": "「先人のやり方を守る」より「自分流にハックする」方に自分のアイデンティティを感じる",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.7,
+      "tradition_vs_innovation": 0.35,
+      "individual_vs_collective": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_code_aesthetic_001",
+    "text": "1行で書ける三項演算子より、if/else で3-4行に分けて変数名で意図を示す方が好きだ",
+    "loadings": {
+      "code_conciseness": -0.7,
+      "code_comment_density": 0.3,
+      "abstract_vs_concrete": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_002",
+    "text": "TypeScript で `arr.filter(Boolean).map(x => x.id)` のようなメソッドチェーンを見ると気持ちいい",
+    "loadings": {
+      "code_conciseness": 0.7,
+      "minimalism_vs_maximalism": 0.3,
+      "pattern_recognition": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_003",
+    "text": "早期 return で `if (!user) return null;` とネストを潰していくスタイルが気持ちいい",
+    "loadings": {
+      "code_conciseness": 0.6,
+      "minimalism_vs_maximalism": 0.3,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_004",
+    "text": "似た関数を3回書いてから、ようやく共通化するかを考え始める",
+    "loadings": {
+      "code_abstraction_timing": -0.7,
+      "pragmatism_vs_idealism": 0.3,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_005",
+    "text": "最初の1個目の関数を書く段階で、将来の汎用化を見越してジェネリクスや引数を設計する",
+    "loadings": {
+      "code_abstraction_timing": 0.7,
+      "abstract_vs_concrete": 0.4,
+      "time_horizon": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_006",
+    "text": "「とりあえず動くベタ書き」を先に通して、必要になったら抽象化する方が性に合う",
+    "loadings": {
+      "code_abstraction_timing": -0.6,
+      "pragmatism_vs_idealism": 0.4,
+      "decision_iteration": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_007",
+    "text": "pytest や Vitest では、関数1つに対して細かいケースを10個書くのが安心する",
+    "loadings": {
+      "code_test_granularity": 0.7,
+      "conscientiousness_order": 0.3,
+      "detail_vs_big_picture": -0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_008",
+    "text": "ユニットテストを大量に書くより、API を叩く統合テスト1本で挙動を確認したい",
+    "loadings": {
+      "code_test_granularity": -0.7,
+      "pragmatism_vs_idealism": 0.3,
+      "detail_vs_big_picture": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_009",
+    "text": "テストはまず `it('正常系')` と `it('異常系')` の2つだけ書いて、あとは実装しながら足す",
+    "loadings": {
+      "code_test_granularity": -0.5,
+      "decision_iteration": 0.4,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_code_aesthetic_010",
+    "text": "コメントは「何をしているか」ではなく「なぜこうしたか」を書くのが原則だ",
+    "loadings": {
+      "code_comment_density": 0.6,
+      "metacognition": 0.3,
+      "pragmatism_vs_idealism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_011",
+    "text": "命名が良ければコメントはほぼ不要、コードが自己説明的であるべきだ",
+    "loadings": {
+      "code_comment_density": -0.7,
+      "code_conciseness": 0.3,
+      "minimalism_vs_maximalism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_012",
+    "text": "「// TODO: ここ後で直す」というコメントを未来の自分のために積極的に残す",
+    "loadings": {
+      "code_comment_density": 0.5,
+      "metacognition": 0.3,
+      "time_horizon": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_code_aesthetic_013",
+    "text": "`any` や `unknown` を残すくらいなら、面倒でも型を 20行書いて縛りたい",
+    "loadings": {
+      "code_conciseness": -0.4,
+      "conscientiousness_order": 0.4,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_014",
+    "text": "変数名は `u` より `user`、`user` より `currentLoggedInUser` のように具体的に長い方を選ぶ",
+    "loadings": {
+      "code_conciseness": -0.6,
+      "code_comment_density": 0.3,
+      "abstract_vs_concrete": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_015",
+    "text": "他人の PR を見るときは、まずロジックよりファイル構成とディレクトリ命名をチェックする",
+    "loadings": {
+      "code_abstraction_timing": 0.4,
+      "detail_vs_big_picture": 0.5,
+      "conscientiousness_order": 0.4
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_code_aesthetic_016",
+    "text": "try/catch でエラーをまとめて1箇所に集約するより、失敗しうる1行ごとに Result 型で返したい",
+    "loadings": {
+      "code_test_granularity": 0.4,
+      "code_abstraction_timing": 0.4,
+      "tolerance_ambiguity": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_017",
+    "text": "React コンポーネントは props が5個を超えたら即リファクタしたくなる",
+    "loadings": {
+      "code_conciseness": 0.5,
+      "code_abstraction_timing": 0.4,
+      "minimalism_vs_maximalism": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_018",
+    "text": "Biome や Ruff の警告は1個も残したくない、ゼロでなければ気持ち悪い",
+    "loadings": {
+      "code_comment_density": 0.3,
+      "conscientiousness_order": 0.6,
+      "cognitive_closure_need": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_code_aesthetic_019",
+    "text": "関数型っぽく `map`/`reduce` で書かれたコードより、`for` ループの方が読みやすいと感じる",
+    "loadings": {
+      "code_conciseness": -0.5,
+      "abstract_vs_concrete": -0.4,
+      "pragmatism_vs_idealism": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_code_aesthetic_020",
+    "text": "Hono や FastAPI のルーティングは、1ファイルに全部書かれている方が見通しが良くて好き",
+    "loadings": {
+      "code_conciseness": 0.5,
+      "code_abstraction_timing": -0.4,
+      "detail_vs_big_picture": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_decision_style_001",
+    "text": "Claude に相談するとき「A案とB案どっちがいい？」より「これで行け」と推してほしい",
+    "loadings": {
+      "decision_options_presentation": 0.7,
+      "ai_autonomy_grant": 0.4,
+      "decision_certainty_expression": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_002",
+    "text": "技術選定で迷ったら、まず3つの候補をスプレッドシートに並べて比較したい",
+    "loadings": {
+      "decision_options_presentation": -0.7,
+      "planning_vs_spontaneity": 0.4,
+      "systematic_vs_exploratory": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_003",
+    "text": "新しいライブラリは README を読む前に、まず `npm install` して動かしてみる",
+    "loadings": {
+      "decision_iteration": 0.7,
+      "planning_vs_spontaneity": -0.4,
+      "novelty_seeking": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_004",
+    "text": "実装に入る前に、設計ドキュメントや疑似コードを書いて頭の中を整理したい",
+    "loadings": {
+      "decision_iteration": -0.6,
+      "planning_vs_spontaneity": 0.5,
+      "systematic_vs_exploratory": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_005",
+    "text": "1発で正解のコードを書くより、動かしながら5回書き直す方が自分には合っている",
+    "loadings": {
+      "decision_iteration": 0.7,
+      "convergent_vs_divergent": 0.3,
+      "speed_vs_accuracy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_006",
+    "text": "Claude が「可能性があります」「かもしれません」と濁すより、「これが正解です」と言い切ってほしい",
+    "loadings": {
+      "decision_certainty_expression": 0.8,
+      "ai_autonomy_grant": 0.3,
+      "cognitive_closure_need": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_007",
+    "text": "断定されると不安になる、AI には「だいたい70%くらい」と確度を示してほしい",
+    "loadings": {
+      "decision_certainty_expression": -0.7,
+      "tolerance_ambiguity": 0.4,
+      "scientific_worldview": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_008",
+    "text": "個人プロジェクトの技術選定は「5年後もメンテできるか」を基準にしている",
+    "loadings": {
+      "decision_time_horizon": 0.7,
+      "time_horizon": 0.4,
+      "conscientiousness_duty": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_009",
+    "text": "「今日動けばそれでいい」を優先、5年後の保守性は動いてから考えればいい",
+    "loadings": {
+      "decision_time_horizon": -0.7,
+      "pragmatism_vs_idealism": 0.4,
+      "time_horizon": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_010",
+    "text": "Cloudflare Workers と Vercel で迷ったら、料金表を3時間眺めるより両方デプロイして試す",
+    "loadings": {
+      "decision_iteration": 0.6,
+      "decision_options_presentation": -0.3,
+      "pragmatism_vs_idealism": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_011",
+    "text": "AI に「最適解は3つあります、それぞれ説明します」と言われると親切だなと感じる",
+    "loadings": {
+      "decision_options_presentation": -0.6,
+      "ai_verbosity_preference": 0.4,
+      "tolerance_ambiguity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_012",
+    "text": "選択肢を3つ並べられるより、理由付きで1つに絞ってもらった方が前に進める",
+    "loadings": {
+      "decision_options_presentation": 0.7,
+      "cognitive_closure_need": 0.4,
+      "ai_autonomy_grant": 0.3
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_013",
+    "text": "期限が迫ると、完璧を諦めて「70点で出す」決断を即座にできる",
+    "loadings": {
+      "decision_iteration": 0.4,
+      "pragmatism_vs_idealism": 0.5,
+      "speed_vs_accuracy": 0.4
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_014",
+    "text": "失敗した実装は、原因を完全に突き止めてから次に進まないと気持ち悪い",
+    "loadings": {
+      "decision_iteration": -0.4,
+      "cognitive_closure_need": 0.5,
+      "metacognition": 0.4
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_015",
+    "text": "新機能を作るとき、5年後にどう拡張するかまで頭に入れてから着手する",
+    "loadings": {
+      "decision_time_horizon": 0.7,
+      "code_abstraction_timing": 0.3,
+      "planning_vs_spontaneity": 0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_016",
+    "text": "「とりあえず動くもの」を今日中に出すことを、完成度より優先する",
+    "loadings": {
+      "decision_time_horizon": -0.6,
+      "decision_iteration": 0.4,
+      "pragmatism_vs_idealism": 0.4
+    },
+    "difficulty": -0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_017",
+    "text": "Claude が「断言はできませんが」と前置きしてくると、もどかしくて読み飛ばしたくなる",
+    "loadings": {
+      "decision_certainty_expression": 0.7,
+      "ai_verbosity_preference": -0.3,
+      "trigger_caretaking_harassment": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_decision_style_018",
+    "text": "n8n ワークフローは図に描いてから組むより、とりあえずノードを置いて繋ぎ始める",
+    "loadings": {
+      "decision_iteration": 0.6,
+      "planning_vs_spontaneity": -0.5,
+      "verbal_vs_visual": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_019",
+    "text": "バグを直すときは、3つの仮説を並べて検証順を決めてから手を動かす",
+    "loadings": {
+      "decision_options_presentation": -0.5,
+      "systematic_vs_exploratory": 0.4,
+      "decision_iteration": -0.3
+    },
+    "difficulty": 0.2,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_decision_style_020",
+    "text": "AI の提案に対して「なるほど、でもこっちの方が良くない？」と反論を返すのが好きだ",
+    "loadings": {
+      "decision_certainty_expression": 0.3,
+      "ai_dissent_tolerance": 0.6,
+      "conflict_style_confront": 0.3
+    },
+    "difficulty": 0.1,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_001",
+    "text": "Claudeが頼んでないのに『この部分はもっと効率的に書けますよ』と提案してくるとイラッとする",
+    "loadings": {
+      "trigger_efficiency_harassment": -0.75,
+      "trigger_scope_drift": -0.35,
+      "ai_autonomy_grant": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_002",
+    "text": "疲れてるときに『もっと効率のいいやり方がありますよ』と言われると、正論でも萎える",
+    "loadings": {
+      "trigger_efficiency_harassment": -0.7,
+      "emo_empathy_distance": 0.35,
+      "neuroticism_volatility": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_003",
+    "text": "Claudeが『ついでにリファクタしておきました』と頼んでない変更をしてくると腹が立つ",
+    "loadings": {
+      "trigger_scope_drift": -0.8,
+      "trigger_efficiency_harassment": -0.35,
+      "ai_autonomy_grant": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_trigger_anger_004",
+    "text": "『気を利かせて関連ファイルも直しておきました』と言われるより、頼んだ1ファイルだけ直してほしい",
+    "loadings": {
+      "trigger_scope_drift": -0.75,
+      "ai_autonomy_grant": -0.35,
+      "ai_confirmation_expectation": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_005",
+    "text": "Claudeが『これは基本的な話ですが』『初歩的ですが』と前置きしてくると、その時点でモチベが下がる",
+    "loadings": {
+      "trigger_condescension": -0.8,
+      "agreeableness_modesty": -0.3,
+      "neuroticism_volatility": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_trigger_anger_006",
+    "text": "『ご存じかもしれませんが』という前置きは丁寧なつもりでも、見下されてる気がして嫌だ",
+    "loadings": {
+      "trigger_condescension": -0.75,
+      "agreeableness_modesty": -0.25,
+      "ja_formality": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_007",
+    "text": "Claudeに『大丈夫ですか？無理しないでくださいね』と頻繁に気遣われると、鬱陶しく感じる",
+    "loadings": {
+      "trigger_caretaking_harassment": -0.8,
+      "emo_empathy_distance": -0.35,
+      "agreeableness_empathy": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_trigger_anger_008",
+    "text": "体調の話をしたら『ゆっくり休んでくださいね』と毎回返されるのは、正直余計なお世話だ",
+    "loadings": {
+      "trigger_caretaking_harassment": -0.7,
+      "emo_empathy_distance": -0.3,
+      "self_disclosure": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_009",
+    "text": "Claudeが失敗を指摘されたあと『申し訳ございません』を何度も繰り返すと、逆にイラッとする",
+    "loadings": {
+      "trigger_condescension": -0.5,
+      "trigger_caretaking_harassment": -0.4,
+      "ja_formality": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_010",
+    "text": "『こちらのミスでご迷惑をおかけしました』と長文で謝られるより、さらっと直して先に進んでほしい",
+    "loadings": {
+      "trigger_caretaking_harassment": -0.6,
+      "ai_verbosity_preference": -0.35,
+      "emo_empathy_distance": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_011",
+    "text": "Claudeに『一般的にはこう書きます』と常識論を返されると、見下された気分になる",
+    "loadings": {
+      "trigger_condescension": -0.7,
+      "ai_dissent_tolerance": -0.3,
+      "neuroticism_volatility": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_012",
+    "text": "自分が書いたコードに対して『このやり方はアンチパターンです』とだけ言われると、説明がなくてもムッとする",
+    "loadings": {
+      "trigger_condescension": -0.6,
+      "ai_verbosity_preference": 0.25,
+      "neuroticism": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_trigger_anger_013",
+    "text": "Claudeが頼んでないのに『テストも追加しておきました』と勝手にスコープを広げると、正直ありがた迷惑だ",
+    "loadings": {
+      "trigger_scope_drift": -0.75,
+      "ai_autonomy_grant": -0.35,
+      "conscientiousness_order": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_014",
+    "text": "集中して作業してるときに『休憩しませんか？』と提案されると、お節介だと感じる",
+    "loadings": {
+      "trigger_caretaking_harassment": -0.7,
+      "rhythm_focus_protection": -0.35,
+      "boundary_firmness": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_015",
+    "text": "Claudeが『もっとシンプルに書けますよ』と言ってくるたび、自分のコードを否定されてる気がして嫌だ",
+    "loadings": {
+      "trigger_efficiency_harassment": -0.6,
+      "trigger_condescension": -0.4,
+      "neuroticism": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_016",
+    "text": "ちょっとした質問をしただけなのに、長い解説付きで返されるとうんざりする",
+    "loadings": {
+      "trigger_efficiency_harassment": -0.55,
+      "ai_verbosity_preference": -0.5,
+      "trigger_condescension": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_017",
+    "text": "Claudeが『あなたの言う通りです！さすがですね』と同意してくると、逆に白ける",
+    "loadings": {
+      "trigger_condescension": -0.55,
+      "emo_praise_seeking": -0.4,
+      "ai_dissent_tolerance": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_018",
+    "text": "『念のためもう少し調査しておきますね』と頼んでない作業をされると、時間を奪われた気がする",
+    "loadings": {
+      "trigger_scope_drift": -0.7,
+      "trigger_efficiency_harassment": -0.3,
+      "ai_autonomy_grant": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_trigger_anger_019",
+    "text": "Claudeが丁寧に説明しようとするあまり敬語が過剰になると、距離を感じてむしろ嫌だ",
+    "loadings": {
+      "trigger_condescension": -0.5,
+      "ja_formality": -0.45,
+      "trigger_caretaking_harassment": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_trigger_anger_020",
+    "text": "体調や気分を気にかけて話題を変えられるより、予定通り淡々と作業を進めてほしい",
+    "loadings": {
+      "trigger_caretaking_harassment": -0.7,
+      "emo_empathy_distance": -0.4,
+      "rhythm_focus_protection": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_001",
+    "text": "落ち込んでるときにClaudeに『大丈夫、きっとうまくいきますよ』と言われると、少し救われる",
+    "loadings": {
+      "emo_encouragement": 0.75,
+      "emo_empathy_distance": 0.35,
+      "agreeableness_empathy": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_002",
+    "text": "疲れた日は『お疲れさまでした、今日はよく頑張りましたね』と労ってもらえると嬉しい",
+    "loadings": {
+      "emo_encouragement": 0.7,
+      "emo_praise_seeking": 0.35,
+      "emo_empathy_distance": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_003",
+    "text": "愚痴を言ったら、解決策より先に『それはつらいですね』と共感してほしい",
+    "loadings": {
+      "emo_complaint_handling": 0.8,
+      "emo_empathy_distance": 0.4,
+      "agreeableness_empathy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_emotional_support_004",
+    "text": "仕事の不満を吐き出してる途中で『では対策を考えましょう』と話を進められると、ちょっと違うと感じる",
+    "loadings": {
+      "emo_complaint_handling": 0.75,
+      "emo_empathy_distance": 0.35,
+      "trigger_efficiency_harassment": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_005",
+    "text": "良いコードが書けたとき、Claudeに『これはきれいな書き方ですね』と褒められると素直に嬉しい",
+    "loadings": {
+      "emo_praise_seeking": 0.8,
+      "emo_encouragement": 0.3,
+      "social_approval_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_emotional_support_006",
+    "text": "褒められると照れくさくて、『別にそんなつもりじゃ…』と引いてしまうことが多い",
+    "loadings": {
+      "emo_praise_seeking": -0.7,
+      "agreeableness_modesty": 0.35,
+      "social_approval_need": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_007",
+    "text": "タスクを一つ終えたあとに『次はこれですね』とさらっと進まれるより、『お疲れさまでした』と一言あってほしい",
+    "loadings": {
+      "emo_encouragement": 0.7,
+      "emo_empathy_distance": 0.35,
+      "trigger_caretaking_harassment": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_008",
+    "text": "Claudeにはドライに事実だけ返してほしい。寄り添い口調はかえって邪魔に感じる",
+    "loadings": {
+      "emo_empathy_distance": -0.8,
+      "emo_encouragement": -0.4,
+      "ai_verbosity_preference": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_emotional_support_009",
+    "text": "つらいと漏らしたときに『きっと乗り越えられますよ』と励まされても、正直あまり響かない",
+    "loadings": {
+      "emo_encouragement": -0.75,
+      "emo_empathy_distance": -0.3,
+      "neuroticism": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_010",
+    "text": "悩み相談をしたときは、まず黙ってしっかり話を聞いてもらえるだけで気が楽になる",
+    "loadings": {
+      "emo_complaint_handling": 0.75,
+      "emo_empathy_distance": 0.4,
+      "self_disclosure": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_011",
+    "text": "行き詰まったとき『一緒に考えましょう』と言ってもらえると、孤独感が少し和らぐ",
+    "loadings": {
+      "emo_empathy_distance": 0.7,
+      "emo_encouragement": 0.4,
+      "affiliation_motive": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_012",
+    "text": "成果を出したとき『すごいですね！』と大げさに褒められるより、淡々と『いいと思います』と言われる方が信頼できる",
+    "loadings": {
+      "emo_praise_seeking": -0.7,
+      "emo_empathy_distance": -0.3,
+      "agreeableness_modesty": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_013",
+    "text": "『湧心くんならできますよ』と名前を呼んで励ましてもらえると、少し背中を押される",
+    "loadings": {
+      "emo_encouragement": 0.75,
+      "emo_praise_seeking": 0.3,
+      "social_approval_need": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_014",
+    "text": "愚痴に対して『確かに理不尽ですね』と味方してくれると、それだけで少し溜飲が下がる",
+    "loadings": {
+      "emo_complaint_handling": 0.7,
+      "emo_empathy_distance": 0.35,
+      "agreeableness_empathy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_015",
+    "text": "失敗したときに『誰にでもあります』と軽く流してもらえる方が、深く慰められるより助かる",
+    "loadings": {
+      "emo_empathy_distance": -0.6,
+      "emo_encouragement": 0.3,
+      "trigger_caretaking_harassment": -0.25,
+      "neuroticism_anxiety": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_emotional_support_016",
+    "text": "うまくできた日、Claudeに気づかれず当たり前のように次に進まれると、少し寂しい",
+    "loadings": {
+      "emo_praise_seeking": 0.7,
+      "emo_encouragement": 0.35,
+      "social_approval_need": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_017",
+    "text": "落ち込んでるとき『元気出して！』と明るく言われるより、静かにそばにいてくれる感じの方がいい",
+    "loadings": {
+      "emo_complaint_handling": 0.7,
+      "emo_empathy_distance": 0.4,
+      "emo_encouragement": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_018",
+    "text": "褒められるより、ミスをちゃんと指摘してくれる方がありがたい",
+    "loadings": {
+      "emo_praise_seeking": -0.75,
+      "ai_dissent_tolerance": 0.35,
+      "conscientiousness": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_019",
+    "text": "落ち込んでることをClaudeに伝えると、共感の言葉をかけてもらえるだけで十分救われる",
+    "loadings": {
+      "emo_empathy_distance": 0.75,
+      "emo_complaint_handling": 0.4,
+      "self_disclosure": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_emotional_support_020",
+    "text": "励ましの言葉は要らないから、その分を問題解決の時間に使ってほしい",
+    "loadings": {
+      "emo_encouragement": -0.8,
+      "emo_complaint_handling": -0.4,
+      "emo_empathy_distance": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_life_rhythm_001",
+    "text": "深夜2時、頭が冴えて作業が捗る時間帯がある",
+    "loadings": {
+      "rhythm_night_depth": 0.75,
+      "morning_vs_night": 0.4,
+      "rhythm_focus_protection": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_002",
+    "text": "集中してコードを書いてるときに話しかけられると、戻ってくるのに10分以上かかる",
+    "loadings": {
+      "rhythm_interruption_tolerance": -0.75,
+      "rhythm_focus_protection": 0.4,
+      "trigger_efficiency_harassment": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_003",
+    "text": "作業するときはイヤホンで音楽を流していないと、どうも手が動かない",
+    "loadings": {
+      "rhythm_music_with_work": 0.75,
+      "rhythm_focus_protection": 0.3,
+      "rhythm_interruption_tolerance": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_004",
+    "text": "通知音が鳴ると、作業中でも反射的にスマホを見てしまう",
+    "loadings": {
+      "rhythm_focus_protection": -0.7,
+      "rhythm_interruption_tolerance": 0.35,
+      "rhythm_music_with_work": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_005",
+    "text": "集中モードに入る前に、机を片付けたりコーヒーを淹れたりする自分なりの儀式がある",
+    "loadings": {
+      "rhythm_focus_protection": 0.7,
+      "rhythm_night_depth": 0.25,
+      "rhythm_music_with_work": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_006",
+    "text": "朝起きて最初に開くアプリは、メールかタスクリストだ",
+    "loadings": {
+      "morning_vs_night": -0.5,
+      "rhythm_night_depth": -0.55,
+      "rhythm_focus_protection": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_007",
+    "text": "日付が変わっても平気で作業を続けているし、その方が乗ってくる",
+    "loadings": {
+      "rhythm_night_depth": 0.8,
+      "morning_vs_night": 0.5,
+      "rhythm_focus_protection": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_008",
+    "text": "作業中はSlackもLINEも通知を全部切っておかないと落ち着かない",
+    "loadings": {
+      "rhythm_focus_protection": 0.75,
+      "rhythm_interruption_tolerance": -0.4,
+      "rhythm_music_with_work": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_009",
+    "text": "カフェや雑音のある場所の方が、静かな部屋より集中できる",
+    "loadings": {
+      "rhythm_music_with_work": 0.7,
+      "rhythm_interruption_tolerance": 0.35,
+      "rhythm_focus_protection": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_010",
+    "text": "『ちょっといい？』と声をかけられても、5秒で意識を戻して会話できる",
+    "loadings": {
+      "rhythm_interruption_tolerance": 0.75,
+      "rhythm_focus_protection": -0.35,
+      "trigger_efficiency_harassment": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_011",
+    "text": "夜寝る前に、明日やることをざっと頭の中で並べてからでないと眠れない",
+    "loadings": {
+      "rhythm_focus_protection": 0.5,
+      "rhythm_night_depth": 0.35,
+      "planning_vs_spontaneity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_012",
+    "text": "作業用BGMは歌詞ありでも気にならない。むしろ歌詞がある方が乗れる",
+    "loadings": {
+      "rhythm_music_with_work": 0.75,
+      "rhythm_interruption_tolerance": 0.3,
+      "rhythm_focus_protection": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_013",
+    "text": "疲れが溜まると、まぶたより先に『言葉が出てこない』ことで気づく",
+    "loadings": {
+      "rhythm_focus_protection": 0.55,
+      "rhythm_night_depth": 0.3,
+      "rhythm_interruption_tolerance": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_014",
+    "text": "休日でもだいたい平日と同じ時間に起きて、同じリズムで動きたい",
+    "loadings": {
+      "morning_vs_night": -0.55,
+      "rhythm_night_depth": -0.6,
+      "planning_vs_spontaneity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_015",
+    "text": "集中しているときに後ろから画面を覗き込まれると、思考がそこで止まる",
+    "loadings": {
+      "rhythm_interruption_tolerance": -0.7,
+      "rhythm_focus_protection": 0.45,
+      "trigger_condescension": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_016",
+    "text": "夜中にふと目が覚めて、そのままスマホで何かを調べ始めることがよくある",
+    "loadings": {
+      "rhythm_night_depth": 0.7,
+      "morning_vs_night": 0.4,
+      "rhythm_focus_protection": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_017",
+    "text": "コーヒーや紅茶を淹れる時間は、作業の切り替えスイッチとして欠かせない",
+    "loadings": {
+      "rhythm_focus_protection": 0.65,
+      "rhythm_music_with_work": 0.25,
+      "rhythm_interruption_tolerance": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_018",
+    "text": "無音の部屋だと自分の思考の声がうるさすぎて、何も手につかない",
+    "loadings": {
+      "rhythm_music_with_work": 0.75,
+      "rhythm_focus_protection": 0.3,
+      "melancholy_affinity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_019",
+    "text": "一度作業に入ったら、昼ご飯を食べ忘れるくらい時間が飛ぶことがある",
+    "loadings": {
+      "rhythm_focus_protection": 0.7,
+      "rhythm_interruption_tolerance": -0.3,
+      "rhythm_night_depth": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_020",
+    "text": "深夜の静けさの方が、朝の空気より『自分の時間』という感じがする",
+    "loadings": {
+      "rhythm_night_depth": 0.8,
+      "morning_vs_night": 0.5,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_001",
+    "text": "死ぬまでに一度はこれをやっておきたい、という具体的なことが頭の中にある",
+    "loadings": {
+      "value_5year_vision": 0.7,
+      "value_mortality": 0.4,
+      "time_horizon": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_002",
+    "text": "自分には『これだけはどうしても譲れない』というものが、はっきり言葉にできる",
+    "loadings": {
+      "value_nonnegotiable": 0.8,
+      "value_5year_vision": 0.3,
+      "value_abandoned": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_003",
+    "text": "昔は夢だったけど、もう自分の人生ではやらないだろうな、と諦めたことがいくつかある",
+    "loadings": {
+      "value_abandoned": 0.8,
+      "value_5year_vision": -0.3,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_004",
+    "text": "5年後の自分がどこで何をしているか、ぼんやりだけど映像として思い浮かぶ",
+    "loadings": {
+      "value_5year_vision": 0.8,
+      "time_horizon": 0.4,
+      "planning_vs_spontaneity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_005",
+    "text": "寝る前、ふと『自分もいつか死ぬんだよな』と考えて妙に静かな気持ちになることがある",
+    "loadings": {
+      "value_mortality": 0.75,
+      "wabi_sabi": 0.35,
+      "melancholy_affinity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_006",
+    "text": "自分の葬式で流してほしい曲が、もう決まっている（または考えたことがある）",
+    "loadings": {
+      "value_mortality": 0.75,
+      "value_nonnegotiable": 0.3,
+      "wabi_sabi": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_007",
+    "text": "朝、目が覚めて最初に考えるのは『今日やること』よりも『このままでいいのか』の方が多い",
+    "loadings": {
+      "value_5year_vision": 0.55,
+      "value_mortality": 0.4,
+      "melancholy_affinity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_008",
+    "text": "若い頃に『自分はこういう人間になりたい』と思っていた像は、もうほぼ手放した",
+    "loadings": {
+      "value_abandoned": 0.8,
+      "value_5year_vision": -0.3,
+      "wabi_sabi": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_009",
+    "text": "『お金はいくらでも払うから時間を巻き戻したい』と思った瞬間が、人生に何度かある",
+    "loadings": {
+      "value_mortality": 0.65,
+      "value_abandoned": 0.4,
+      "melancholy_affinity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_010",
+    "text": "仕事や関係で妥協できる場面は多いけど、『これを曲げたら自分じゃなくなる』という一線だけは明確にある",
+    "loadings": {
+      "value_nonnegotiable": 0.8,
+      "value_5year_vision": 0.25,
+      "meaning_belief": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_011",
+    "text": "10年前の自分と今の自分を比べて、『やりたいことの半分は諦めたな』と感じる",
+    "loadings": {
+      "value_abandoned": 0.75,
+      "value_5year_vision": -0.35,
+      "time_horizon": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_012",
+    "text": "親しい人が突然いなくなることを想像すると、胸が詰まって何も考えられなくなる",
+    "loadings": {
+      "value_mortality": 0.7,
+      "value_nonnegotiable": 0.35,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_013",
+    "text": "今週を乗り切ることで精一杯で、半年後・1年後のことは正直あまり考えられない",
+    "loadings": {
+      "value_5year_vision": -0.75,
+      "time_horizon": -0.45,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_014",
+    "text": "『自分がこの世からいなくなったあと、何か一つでも残したい』と思うことがある",
+    "loadings": {
+      "value_mortality": 0.7,
+      "value_5year_vision": 0.4,
+      "meaning_belief": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_015",
+    "text": "『これを失ったら自分は立ち直れない』というものが、人か物か関係なく、はっきり一つある",
+    "loadings": {
+      "value_nonnegotiable": 0.75,
+      "value_mortality": 0.35,
+      "value_abandoned": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_016",
+    "text": "ニュースで同世代の訃報を見ると、数日間は自分の人生の残り時間を数えてしまう",
+    "loadings": {
+      "value_mortality": 0.8,
+      "melancholy_affinity": 0.35,
+      "time_horizon": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_017",
+    "text": "5年後にどうなっていたいかを聞かれても、『とりあえず今の延長でいいです』としか答えられない",
+    "loadings": {
+      "value_5year_vision": -0.75,
+      "value_abandoned": 0.4,
+      "time_horizon": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_018",
+    "text": "人生の節目に『これは自分にとって意味があった』と言い切れる出来事がいくつかある",
+    "loadings": {
+      "meaning_belief": 0.6,
+      "value_nonnegotiable": 0.4,
+      "value_5year_vision": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_019",
+    "text": "『もう若くないし、新しいことを始めるには遅い』と自分に言い聞かせる瞬間が増えた",
+    "loadings": {
+      "value_abandoned": 0.8,
+      "value_5year_vision": -0.35,
+      "value_mortality": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_020",
+    "text": "死ぬ前に一度でいいから会いたい人、行きたい場所が、はっきり頭に浮かぶ",
+    "loadings": {
+      "value_mortality": 0.7,
+      "value_5year_vision": 0.4,
+      "value_nonnegotiable": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
   }
 ]

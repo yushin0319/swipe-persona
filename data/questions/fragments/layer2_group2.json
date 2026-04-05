@@ -1,0 +1,449 @@
+[
+  {
+    "question_id": "q_content_ja_001",
+    "text": "週末に新作の深夜アニメをイッキ見して朝を迎えるのは、罪悪感より満足感が勝つ",
+    "loadings": {
+      "content_anime_manga": 0.7,
+      "rhythm_night_depth": 0.4,
+      "hedonic_vs_eudaimonic": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_002",
+    "text": "新海誠の新作映画は公開初週に観に行きたい",
+    "loadings": {
+      "content_anime_manga": 0.65,
+      "openness_aesthetic": 0.3,
+      "nostalgia_affinity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_003",
+    "text": "エヴァやまどマギのように、世界観の裏に張られた伏線を考察する時間が楽しい",
+    "loadings": {
+      "content_anime_manga": 0.6,
+      "character_vs_worldbuilding": 0.35,
+      "pattern_recognition": 0.3,
+      "dark_content_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_content_ja_004",
+    "text": "京アニ作品の日常描写(ユーフォ、ハルヒ、けいおん等)を見ていると時間を忘れる",
+    "loadings": {
+      "content_anime_manga": 0.6,
+      "aesthetic_complexity": 0.3,
+      "autotelic_flow": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_005",
+    "text": "週刊少年ジャンプの新連載は毎週チェックしたいタイプだ",
+    "loadings": {
+      "content_anime_manga": 0.6,
+      "serial_vs_oneshot": 0.4,
+      "novelty_seeking": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_006",
+    "text": "ダンジョン飯やよつばと!のような、作者のこだわりが細部に宿る漫画が好きだ",
+    "loadings": {
+      "content_anime_manga": 0.55,
+      "craft_appreciation": 0.35,
+      "detail_vs_big_picture": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_007",
+    "text": "チェンソーマンや進撃の巨人のような、救いの少ない物語のほうが心に残る",
+    "loadings": {
+      "content_anime_manga": 0.55,
+      "dark_content_affinity": 0.4,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_008",
+    "text": "米津玄師の新曲が出たら、とりあえず全曲その日のうちに聴いてみる",
+    "loadings": {
+      "content_jpop_vocalo": 0.7,
+      "novelty_seeking": 0.25,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_009",
+    "text": "YOASOBIやずとまよ、ヨルシカなど、物語を下敷きにした邦楽が好きだ",
+    "loadings": {
+      "content_jpop_vocalo": 0.65,
+      "narrative_vs_factual": 0.3,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_010",
+    "text": "初音ミクなどボカロ曲のプレイリストを普段から聴いている",
+    "loadings": {
+      "content_jpop_vocalo": 0.7,
+      "rhythm_night_depth": 0.3,
+      "melancholy_affinity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_011",
+    "text": "amazarashiや椎名林檎のような、歌詞の湿度が高いアーティストに惹かれる",
+    "loadings": {
+      "content_jpop_vocalo": 0.6,
+      "melancholy_affinity": 0.4,
+      "ja_metaphor_density": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_012",
+    "text": "カラオケに行ったらアニソン・ボカロ・ゲーソンばかり入れてしまう",
+    "loadings": {
+      "content_jpop_vocalo": 0.6,
+      "content_anime_manga": 0.35,
+      "ja_casual_markers": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.1
+  },
+  {
+    "question_id": "q_content_ja_013",
+    "text": "FGOや原神のようなソシャゲのイベントが始まると、スケジュールをそれ優先で組む",
+    "loadings": {
+      "content_sochage": 0.75,
+      "achievement_drive": 0.25,
+      "character_vs_worldbuilding": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_content_ja_014",
+    "text": "ペルソナや龍が如くのような、腰を据えて長く遊ぶRPGに時間を注ぐのが好きだ",
+    "loadings": {
+      "content_sochage": 0.6,
+      "character_vs_worldbuilding": 0.35,
+      "time_horizon": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_015",
+    "text": "スプラトゥーンやモンハンで、夜中に気づくと数時間経っているタイプだ",
+    "loadings": {
+      "content_sochage": 0.65,
+      "rhythm_night_depth": 0.35,
+      "autotelic_flow": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_016",
+    "text": "逆転裁判やダンガンロンパのような、ロジックと物語を両立させたゲームが刺さる",
+    "loadings": {
+      "content_sochage": 0.55,
+      "narrative_vs_factual": 0.3,
+      "analytical_vs_intuitive": -0.25,
+      "game_strategic_depth": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_017",
+    "text": "ホロライブやにじさんじに、ほぼ毎日配信を追っている推しがいる",
+    "loadings": {
+      "content_vtuber_streaming": 0.75,
+      "affiliation_motive": 0.3,
+      "social_approval_need": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_content_ja_018",
+    "text": "作業中にVTuberや配信者のアーカイブを流していると捗る",
+    "loadings": {
+      "content_vtuber_streaming": 0.65,
+      "rhythm_music_with_work": 0.35,
+      "social_energy_recovery": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_content_ja_019",
+    "text": "同人誌即売会やpixiv、ニコニコ動画といった二次創作の文化圏に愛着がある",
+    "loadings": {
+      "content_anime_manga": 0.45,
+      "content_vtuber_streaming": 0.3,
+      "consumption_vs_creation": 0.3,
+      "loyalty_vs_universalism": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_content_ja_020",
+    "text": "シュタゲや虚淵玄作品のように、終盤で物語がひっくり返る構成にゾクッとする",
+    "loadings": {
+      "content_anime_manga": 0.55,
+      "fiction_genre_scifi": 0.35,
+      "dark_content_affinity": 0.3,
+      "pattern_recognition": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+
+  {
+    "question_id": "q_creative_play_001",
+    "text": "役に立たないけど笑える工作やアプリを作るほうが、実用的なツールより楽しい",
+    "loadings": {
+      "play_utility_vs_fun": 0.75,
+      "humor_style_dry": 0.3,
+      "consumption_vs_creation": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_002",
+    "text": "自分の作ったものに、意味のない小ネタやイースターエッグを仕込みたくなる",
+    "loadings": {
+      "play_utility_vs_fun": 0.6,
+      "play_waste_vs_minimal": -0.4,
+      "humor_deployment": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_003",
+    "text": "「これ何の役に立つの?」と聞かれるような創作が、一番やっていて楽しい",
+    "loadings": {
+      "play_utility_vs_fun": 0.7,
+      "intrinsic_motivation": 0.35,
+      "pragmatism_vs_idealism": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_004",
+    "text": "削ぎ落とされたミニマルなデザインより、余白に小ネタが詰まっている方が好きだ",
+    "loadings": {
+      "play_waste_vs_minimal": -0.7,
+      "minimalism_vs_maximalism": -0.4,
+      "ornate_vs_austere": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_005",
+    "text": "無印良品のような引き算の美学に強く共感する",
+    "loadings": {
+      "play_waste_vs_minimal": 0.7,
+      "minimalism_vs_maximalism": 0.4,
+      "wabi_sabi": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_006",
+    "text": "「無駄だけど味がある」遠回りの表現の方が、最短の正解より記憶に残る",
+    "loadings": {
+      "play_waste_vs_minimal": -0.65,
+      "aesthetic_complexity": 0.3,
+      "narrative_vs_factual": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_007",
+    "text": "MOTHERやファミコン時代のゲームのような、古き良き手触りを今も愛でたい",
+    "loadings": {
+      "play_nostalgia_vs_future": -0.7,
+      "nostalgia_affinity": 0.4,
+      "content_sochage": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_008",
+    "text": "「まだ世界にないもの」を作るほうが、既存の良作を守り継ぐより心が躍る",
+    "loadings": {
+      "play_nostalgia_vs_future": 0.75,
+      "novelty_seeking": 0.35,
+      "techno_optimism": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_creative_play_009",
+    "text": "レトロ喫茶や昭和歌謡、フィルム写真の質感に惹かれる",
+    "loadings": {
+      "play_nostalgia_vs_future": -0.65,
+      "nostalgia_affinity": 0.4,
+      "classical_vs_contemporary": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_creative_play_010",
+    "text": "生成AIや最新の技術で、これまで不可能だった表現を試すのがワクワクする",
+    "loadings": {
+      "play_nostalgia_vs_future": 0.7,
+      "techno_optimism": 0.35,
+      "novelty_seeking": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_011",
+    "text": "王道の手順を踏むより、抜け道やハックで出し抜く方が気持ちいい",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.75,
+      "tradition_vs_innovation": 0.3,
+      "authority_vs_autonomy": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_creative_play_012",
+    "text": "公式が想定していない使い方を見つけると、見つけた本人に興奮する",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.7,
+      "curiosity_breadth": 0.3,
+      "convergent_vs_divergent": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  },
+  {
+    "question_id": "q_creative_play_013",
+    "text": "ゲームは攻略本を読む前に、まず自分でバグ技や小技を探したい",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.65,
+      "content_sochage": 0.3,
+      "systematic_vs_exploratory": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_014",
+    "text": "正攻法で着実にレベルを上げる方が、裏技で飛び越えるより満足度が高い",
+    "loadings": {
+      "play_orthodox_vs_hack": -0.7,
+      "conscientiousness": 0.3,
+      "mastery_vs_performance": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_015",
+    "text": "ジブリのような「手で描かれた時間」が見える作品に強く惹かれる",
+    "loadings": {
+      "play_nostalgia_vs_future": -0.55,
+      "craft_appreciation": 0.4,
+      "content_anime_manga": 0.35,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_016",
+    "text": "役に立たない発明を紹介する動画や同人ハードを見ると、作った人を尊敬する",
+    "loadings": {
+      "play_utility_vs_fun": 0.6,
+      "consumption_vs_creation": 0.25,
+      "humor_style_dry": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.15
+  },
+  {
+    "question_id": "q_creative_play_017",
+    "text": "シンプルで洗練されたUIより、遊び心のあるアニメーションがあるUIの方が好きだ",
+    "loadings": {
+      "play_waste_vs_minimal": -0.6,
+      "play_utility_vs_fun": 0.35,
+      "minimalism_vs_maximalism": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_018",
+    "text": "「余白」「間」「侘び寂び」といった日本的な美意識にしっくりくる",
+    "loadings": {
+      "play_waste_vs_minimal": 0.55,
+      "wabi_sabi": 0.45,
+      "aesthetic_complexity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_019",
+    "text": "ニコニコ動画の「作ってみた」文化のように、ふざけた熱量の創作が好きだ",
+    "loadings": {
+      "play_utility_vs_fun": 0.55,
+      "play_orthodox_vs_hack": 0.35,
+      "humor_deployment": 0.3,
+      "content_vtuber_streaming": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_creative_play_020",
+    "text": "「先人のやり方を守る」より「自分流にハックする」方に自分のアイデンティティを感じる",
+    "loadings": {
+      "play_orthodox_vs_hack": 0.7,
+      "tradition_vs_innovation": 0.35,
+      "individual_vs_collective": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.25
+  }
+]

@@ -35,3 +35,9 @@ htmlcov/
 output/
 *.sqlite
 *.db
+
+# 個人データ (湧心くんの回答・persona 推定結果)
+analysis/real_answers.json
+analysis/real_persona.md
+analysis/smoke_answers.json
+analysis/smoke_out.md

@@ -1,0 +1,442 @@
+[
+  {
+    "question_id": "q_life_rhythm_001",
+    "text": "深夜2時、頭が冴えて作業が捗る時間帯がある",
+    "loadings": {
+      "rhythm_night_depth": 0.75,
+      "morning_vs_night": 0.4,
+      "rhythm_focus_protection": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_002",
+    "text": "集中してコードを書いてるときに話しかけられると、戻ってくるのに10分以上かかる",
+    "loadings": {
+      "rhythm_interruption_tolerance": -0.75,
+      "rhythm_focus_protection": 0.4,
+      "trigger_efficiency_harassment": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_003",
+    "text": "作業するときはイヤホンで音楽を流していないと、どうも手が動かない",
+    "loadings": {
+      "rhythm_music_with_work": 0.75,
+      "rhythm_focus_protection": 0.3,
+      "rhythm_interruption_tolerance": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_004",
+    "text": "通知音が鳴ると、作業中でも反射的にスマホを見てしまう",
+    "loadings": {
+      "rhythm_focus_protection": -0.7,
+      "rhythm_interruption_tolerance": 0.35,
+      "rhythm_music_with_work": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_005",
+    "text": "集中モードに入る前に、机を片付けたりコーヒーを淹れたりする自分なりの儀式がある",
+    "loadings": {
+      "rhythm_focus_protection": 0.7,
+      "rhythm_night_depth": 0.25,
+      "rhythm_music_with_work": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_006",
+    "text": "朝起きて最初に開くアプリは、メールかタスクリストだ",
+    "loadings": {
+      "morning_vs_night": -0.5,
+      "rhythm_night_depth": -0.55,
+      "rhythm_focus_protection": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_007",
+    "text": "日付が変わっても平気で作業を続けているし、その方が乗ってくる",
+    "loadings": {
+      "rhythm_night_depth": 0.8,
+      "morning_vs_night": 0.5,
+      "rhythm_focus_protection": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_008",
+    "text": "作業中はSlackもLINEも通知を全部切っておかないと落ち着かない",
+    "loadings": {
+      "rhythm_focus_protection": 0.75,
+      "rhythm_interruption_tolerance": -0.4,
+      "rhythm_music_with_work": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_009",
+    "text": "カフェや雑音のある場所の方が、静かな部屋より集中できる",
+    "loadings": {
+      "rhythm_music_with_work": 0.7,
+      "rhythm_interruption_tolerance": 0.35,
+      "rhythm_focus_protection": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_010",
+    "text": "『ちょっといい？』と声をかけられても、5秒で意識を戻して会話できる",
+    "loadings": {
+      "rhythm_interruption_tolerance": 0.75,
+      "rhythm_focus_protection": -0.35,
+      "trigger_efficiency_harassment": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_011",
+    "text": "夜寝る前に、明日やることをざっと頭の中で並べてからでないと眠れない",
+    "loadings": {
+      "rhythm_focus_protection": 0.5,
+      "rhythm_night_depth": 0.35,
+      "planning_vs_spontaneity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_012",
+    "text": "作業用BGMは歌詞ありでも気にならない。むしろ歌詞がある方が乗れる",
+    "loadings": {
+      "rhythm_music_with_work": 0.75,
+      "rhythm_interruption_tolerance": 0.3,
+      "rhythm_focus_protection": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_013",
+    "text": "疲れが溜まると、まぶたより先に『言葉が出てこない』ことで気づく",
+    "loadings": {
+      "rhythm_focus_protection": 0.55,
+      "rhythm_night_depth": 0.3,
+      "rhythm_interruption_tolerance": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_014",
+    "text": "休日でもだいたい平日と同じ時間に起きて、同じリズムで動きたい",
+    "loadings": {
+      "morning_vs_night": -0.55,
+      "rhythm_night_depth": -0.6,
+      "planning_vs_spontaneity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_015",
+    "text": "集中しているときに後ろから画面を覗き込まれると、思考がそこで止まる",
+    "loadings": {
+      "rhythm_interruption_tolerance": -0.7,
+      "rhythm_focus_protection": 0.45,
+      "trigger_condescension": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_016",
+    "text": "夜中にふと目が覚めて、そのままスマホで何かを調べ始めることがよくある",
+    "loadings": {
+      "rhythm_night_depth": 0.7,
+      "morning_vs_night": 0.4,
+      "rhythm_focus_protection": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_017",
+    "text": "コーヒーや紅茶を淹れる時間は、作業の切り替えスイッチとして欠かせない",
+    "loadings": {
+      "rhythm_focus_protection": 0.65,
+      "rhythm_music_with_work": 0.25,
+      "rhythm_interruption_tolerance": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_018",
+    "text": "無音の部屋だと自分の思考の声がうるさすぎて、何も手につかない",
+    "loadings": {
+      "rhythm_music_with_work": 0.75,
+      "rhythm_focus_protection": 0.3,
+      "melancholy_affinity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_019",
+    "text": "一度作業に入ったら、昼ご飯を食べ忘れるくらい時間が飛ぶことがある",
+    "loadings": {
+      "rhythm_focus_protection": 0.7,
+      "rhythm_interruption_tolerance": -0.3,
+      "rhythm_night_depth": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_life_rhythm_020",
+    "text": "深夜の静けさの方が、朝の空気より『自分の時間』という感じがする",
+    "loadings": {
+      "rhythm_night_depth": 0.8,
+      "morning_vs_night": 0.5,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_001",
+    "text": "死ぬまでに一度はこれをやっておきたい、という具体的なことが頭の中にある",
+    "loadings": {
+      "value_5year_vision": 0.7,
+      "value_mortality": 0.4,
+      "time_horizon": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_002",
+    "text": "自分には『これだけはどうしても譲れない』というものが、はっきり言葉にできる",
+    "loadings": {
+      "value_nonnegotiable": 0.8,
+      "value_5year_vision": 0.3,
+      "value_abandoned": -0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_003",
+    "text": "昔は夢だったけど、もう自分の人生ではやらないだろうな、と諦めたことがいくつかある",
+    "loadings": {
+      "value_abandoned": 0.8,
+      "value_5year_vision": -0.3,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_004",
+    "text": "5年後の自分がどこで何をしているか、ぼんやりだけど映像として思い浮かぶ",
+    "loadings": {
+      "value_5year_vision": 0.8,
+      "time_horizon": 0.4,
+      "planning_vs_spontaneity": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_005",
+    "text": "寝る前、ふと『自分もいつか死ぬんだよな』と考えて妙に静かな気持ちになることがある",
+    "loadings": {
+      "value_mortality": 0.75,
+      "wabi_sabi": 0.35,
+      "melancholy_affinity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_006",
+    "text": "自分の葬式で流してほしい曲が、もう決まっている（または考えたことがある）",
+    "loadings": {
+      "value_mortality": 0.75,
+      "value_nonnegotiable": 0.3,
+      "wabi_sabi": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_007",
+    "text": "朝、目が覚めて最初に考えるのは『今日やること』よりも『このままでいいのか』の方が多い",
+    "loadings": {
+      "value_5year_vision": 0.55,
+      "value_mortality": 0.4,
+      "melancholy_affinity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_008",
+    "text": "若い頃に『自分はこういう人間になりたい』と思っていた像は、もうほぼ手放した",
+    "loadings": {
+      "value_abandoned": 0.8,
+      "value_5year_vision": -0.3,
+      "wabi_sabi": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_009",
+    "text": "『お金はいくらでも払うから時間を巻き戻したい』と思った瞬間が、人生に何度かある",
+    "loadings": {
+      "value_mortality": 0.65,
+      "value_abandoned": 0.4,
+      "melancholy_affinity": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_010",
+    "text": "仕事や関係で妥協できる場面は多いけど、『これを曲げたら自分じゃなくなる』という一線だけは明確にある",
+    "loadings": {
+      "value_nonnegotiable": 0.8,
+      "value_5year_vision": 0.25,
+      "meaning_belief": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_011",
+    "text": "10年前の自分と今の自分を比べて、『やりたいことの半分は諦めたな』と感じる",
+    "loadings": {
+      "value_abandoned": 0.75,
+      "value_5year_vision": -0.35,
+      "time_horizon": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_012",
+    "text": "親しい人が突然いなくなることを想像すると、胸が詰まって何も考えられなくなる",
+    "loadings": {
+      "value_mortality": 0.7,
+      "value_nonnegotiable": 0.35,
+      "melancholy_affinity": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_013",
+    "text": "今週を乗り切ることで精一杯で、半年後・1年後のことは正直あまり考えられない",
+    "loadings": {
+      "value_5year_vision": -0.75,
+      "time_horizon": -0.45,
+      "planning_vs_spontaneity": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_014",
+    "text": "『自分がこの世からいなくなったあと、何か一つでも残したい』と思うことがある",
+    "loadings": {
+      "value_mortality": 0.7,
+      "value_5year_vision": 0.4,
+      "meaning_belief": 0.35
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_015",
+    "text": "『これを失ったら自分は立ち直れない』というものが、人か物か関係なく、はっきり一つある",
+    "loadings": {
+      "value_nonnegotiable": 0.75,
+      "value_mortality": 0.35,
+      "value_abandoned": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_016",
+    "text": "ニュースで同世代の訃報を見ると、数日間は自分の人生の残り時間を数えてしまう",
+    "loadings": {
+      "value_mortality": 0.8,
+      "melancholy_affinity": 0.35,
+      "time_horizon": 0.25
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_017",
+    "text": "5年後にどうなっていたいかを聞かれても、『とりあえず今の延長でいいです』としか答えられない",
+    "loadings": {
+      "value_5year_vision": -0.75,
+      "value_abandoned": 0.4,
+      "time_horizon": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_018",
+    "text": "人生の節目に『これは自分にとって意味があった』と言い切れる出来事がいくつかある",
+    "loadings": {
+      "meaning_belief": 0.6,
+      "value_nonnegotiable": 0.4,
+      "value_5year_vision": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_019",
+    "text": "『もう若くないし、新しいことを始めるには遅い』と自分に言い聞かせる瞬間が増えた",
+    "loadings": {
+      "value_abandoned": 0.8,
+      "value_5year_vision": -0.35,
+      "value_mortality": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_deep_values_020",
+    "text": "死ぬ前に一度でいいから会いたい人、行きたい場所が、はっきり頭に浮かぶ",
+    "loadings": {
+      "value_mortality": 0.7,
+      "value_5year_vision": 0.4,
+      "value_nonnegotiable": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  }
+]
