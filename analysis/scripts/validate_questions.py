@@ -83,7 +83,9 @@ def validate(questions: list[dict], known_axes: set[str]) -> tuple[list[str], li
         if avg < 0.1:
             warnings.append(f"axis '{axis_id}': 平均 |loading|={avg:.3f} が低すぎる")
         elif avg > 0.5:
-            warnings.append(f"axis '{axis_id}': 平均 |loading|={avg:.3f} が高すぎる (ドリフトの疑い)")
+            warnings.append(
+                f"axis '{axis_id}': 平均 |loading|={avg:.3f} が高すぎる (ドリフトの疑い)"
+            )
 
     # 7. カバレッジ: axes.yaml にあるが一度も登場しない軸
     uncovered = known_axes - per_axis.keys()

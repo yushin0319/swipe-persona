@@ -46,7 +46,6 @@ from typing import Any
 import numpy as np
 import yaml
 
-
 # ==================== データクラス ====================
 
 
@@ -310,10 +309,7 @@ def format_markdown(persona: PersonaVector, axes: list[Axis]) -> str:
             std = info["std"]
             n = info["n_informed"]
             interp = _interpret(mean, axis) if n > 0 else "(情報なし)"
-            lines.append(
-                f"- **{axis.display_name}**: {mean:+.2f} ± {std:.2f} "
-                f"(n={n}) — {interp}"
-            )
+            lines.append(f"- **{axis.display_name}**: {mean:+.2f} ± {std:.2f} (n={n}) — {interp}")
         lines.append("")
 
     return "\n".join(lines)
