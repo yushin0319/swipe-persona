@@ -16,7 +16,7 @@
     "loadings": {
       "openness_aesthetic": 0.7,
       "code_conciseness": 0.4,
-      "hack_vs_proper": -0.3
+      "play_orthodox_vs_hack": -0.3
     },
     "difficulty": 0.3,
     "discrimination": 1.4
@@ -25,9 +25,9 @@
     "question_id": "q_targeted_003",
     "text": "Claudeに「これとこれ、どっちの設計がいいと思う？」と聞いて、返ってきた答えをそのまま採用することが多い",
     "loadings": {
-      "ai_delegation": 0.7,
-      "trial_vs_perfectshot": -0.3,
-      "ai_challenge_welcome": -0.2
+      "ai_autonomy_grant": 0.7,
+      "decision_iteration": -0.3,
+      "ai_dissent_tolerance": -0.2
     },
     "difficulty": 0.0,
     "discrimination": 1.3
@@ -47,8 +47,8 @@
     "question_id": "q_targeted_005",
     "text": "興味のあるテーマに取り組んでいると、気づいたら3時間以上経っていたということがよくある",
     "loadings": {
-      "flow_orientation": 0.7,
-      "concentration_protection": 0.3,
+      "autotelic_flow": 0.7,
+      "rhythm_focus_protection": 0.3,
       "mastery_vs_performance": 0.2
     },
     "difficulty": -0.5,
@@ -80,8 +80,8 @@
     "question_id": "q_targeted_008",
     "text": "Claudeが提案したアーキテクチャが自分の直感と違っても、説得力があればそちらに乗る",
     "loadings": {
-      "ai_delegation": 0.7,
-      "ai_challenge_welcome": 0.3,
+      "ai_autonomy_grant": 0.7,
+      "ai_dissent_tolerance": 0.3,
       "trust_threshold": 0.3
     },
     "difficulty": 0.3,
@@ -103,7 +103,7 @@
     "text": "正しいけど退屈な方法と、少し荒削りだけど面白い方法があったら、後者を選びがちだ",
     "loadings": {
       "fun_filter_strength": 0.7,
-      "hack_vs_proper": 0.4,
+      "play_orthodox_vs_hack": 0.4,
       "speed_vs_accuracy": 0.2
     },
     "difficulty": 0.0,
@@ -113,7 +113,7 @@
     "question_id": "q_targeted_011",
     "text": "興味のないタスクだと5分も集中が持たないが、ハマったら丸一日没頭できる",
     "loadings": {
-      "flow_orientation": 0.7,
+      "autotelic_flow": 0.7,
       "fun_filter_strength": 0.4,
       "intrinsic_motivation": 0.3
     },
@@ -125,7 +125,7 @@
     "text": "数式やアルゴリズムの証明が「美しい」と感じたことがある",
     "loadings": {
       "openness_aesthetic": 0.6,
-      "intellectual_curiosity": 0.4,
+      "curiosity_breadth": 0.4,
       "pattern_recognition": 0.3
     },
     "difficulty": 0.3,
@@ -135,9 +135,9 @@
     "question_id": "q_targeted_013",
     "text": "Claudeには実装の手を動かすのは全部任せたいが、「何を作るか」は自分で決めたい",
     "loadings": {
-      "ai_delegation": -0.7,
-      "consume_vs_create": -0.3,
-      "efficiency_suggestion_tolerance": 0.3
+      "ai_autonomy_grant": -0.7,
+      "consumption_vs_creation": -0.3,
+      "trigger_efficiency_harassment": 0.3
     },
     "difficulty": -0.5,
     "discrimination": 1.5
@@ -148,7 +148,7 @@
     "loadings": {
       "structural_self_improvement": 0.7,
       "metacognition": 0.3,
-      "detail_vs_holistic": 0.2
+      "detail_vs_big_picture": 0.2
     },
     "difficulty": 0.5,
     "discrimination": 1.3
@@ -168,7 +168,7 @@
     "question_id": "q_targeted_016",
     "text": "没頭して作業していたのに、ふと別のアイデアが浮かぶとそちらに飛びつきたくなる",
     "loadings": {
-      "flow_orientation": -0.6,
+      "autotelic_flow": -0.6,
       "novelty_seeking": 0.5,
       "fun_filter_strength": 0.3
     },
@@ -192,7 +192,7 @@
     "loadings": {
       "openness_aesthetic": 0.7,
       "pattern_recognition": 0.3,
-      "detail_vs_holistic": -0.2
+      "detail_vs_big_picture": -0.2
     },
     "difficulty": 0.3,
     "discrimination": 1.2
@@ -201,8 +201,8 @@
     "question_id": "q_targeted_019",
     "text": "Claudeに「この方針で進めます」と言われたとき、根拠を確認せずOKを出すことがある",
     "loadings": {
-      "ai_delegation": 0.7,
-      "cognitive_closure": 0.3,
+      "ai_autonomy_grant": 0.7,
+      "cognitive_closure_need": 0.3,
       "trust_threshold": 0.3
     },
     "difficulty": 0.3,
@@ -212,7 +212,7 @@
     "question_id": "q_targeted_020",
     "text": "一つのプロジェクトに20日以上連続で没頭して、他のことが全部後回しになった経験がある",
     "loadings": {
-      "flow_orientation": 0.8,
+      "autotelic_flow": 0.8,
       "fun_filter_strength": 0.3,
       "mastery_vs_performance": 0.2
     },
