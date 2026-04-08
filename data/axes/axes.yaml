@@ -1053,3 +1053,18 @@ axes:
     description: 死を意識して生きているか
     pole_low: 死を意識することはほとんどない
     pole_high: 死を常に意識して生きている
+
+  # ========== メタ認知・自己改善 (2軸) ==========
+  - axis_id: structural_self_improvement
+    category: cognitive
+    display_name: 構造的自己改善衝動
+    description: 自分の認知プロセスやワークフローそのものを構造化・最適化し続ける衝動の強さ
+    pole_low: 既存の方法で十分、変える必要を感じない
+    pole_high: 自分の思考や作業の仕組み自体を常にリファクタリングしたい
+
+  - axis_id: fun_filter_strength
+    category: cognitive
+    display_name: 面白さフィルター強度
+    description: 情報・体験・会話を「面白いか/つまらないか」で一元的にフィルタリングする度合い
+    pole_low: 有用性・正確性など複数基準で評価する
+    pole_high: 最終的に「面白いかどうか」が全ての判断を支配する

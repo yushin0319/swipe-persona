@@ -4673,5 +4673,225 @@
     },
     "difficulty": 0.0,
     "discrimination": 1.2
+  },
+  {
+    "question_id": "q_targeted_001",
+    "text": "自分の作業手順がうまくいっているときでも「もっと良い仕組みにできないか」と定期的に見直したくなる",
+    "loadings": {
+      "structural_self_improvement": 0.8,
+      "metacognition": 0.4,
+      "tradition_vs_innovation": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_targeted_002",
+    "text": "コードレビューで「動くけど構造が美しくない」という理由だけでリファクタを提案したことがある",
+    "loadings": {
+      "openness_aesthetic": 0.7,
+      "code_conciseness": 0.4,
+      "hack_vs_proper": -0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_targeted_003",
+    "text": "Claudeに「これとこれ、どっちの設計がいいと思う？」と聞いて、返ってきた答えをそのまま採用することが多い",
+    "loadings": {
+      "ai_delegation": 0.7,
+      "trial_vs_perfectshot": -0.3,
+      "ai_challenge_welcome": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_targeted_004",
+    "text": "新しいプロジェクトに手を出すかどうか、最終的には「面白そうかどうか」で決めている",
+    "loadings": {
+      "fun_filter_strength": 0.8,
+      "intrinsic_motivation": 0.4,
+      "novelty_seeking": 0.3
+    },
+    "difficulty": -0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_targeted_005",
+    "text": "興味のあるテーマに取り組んでいると、気づいたら3時間以上経っていたということがよくある",
+    "loadings": {
+      "flow_orientation": 0.7,
+      "concentration_protection": 0.3,
+      "mastery_vs_performance": 0.2
+    },
+    "difficulty": -0.5,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_targeted_006",
+    "text": "自分がなぜその判断をしたのか、後から言語化して振り返るクセがある",
+    "loadings": {
+      "metacognition": 0.7,
+      "structural_self_improvement": 0.3,
+      "pattern_recognition": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_targeted_007",
+    "text": "ディレクトリ構成やファイル命名を見て「きれいだな」と感じることがある",
+    "loadings": {
+      "openness_aesthetic": 0.7,
+      "code_conciseness": 0.3,
+      "minimalism_vs_maximalism": -0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_targeted_008",
+    "text": "Claudeが提案したアーキテクチャが自分の直感と違っても、説得力があればそちらに乗る",
+    "loadings": {
+      "ai_delegation": 0.7,
+      "ai_challenge_welcome": 0.3,
+      "trust_threshold": 0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_targeted_009",
+    "text": "「なぜ自分はいつもこのパターンにハマるのか」と自分の行動傾向をメタに分析して、対策を仕組みとして作ったことがある",
+    "loadings": {
+      "metacognition": 0.6,
+      "structural_self_improvement": 0.6,
+      "pattern_recognition": 0.3
+    },
+    "difficulty": 0.5,
+    "discrimination": 1.5
+  },
+  {
+    "question_id": "q_targeted_010",
+    "text": "正しいけど退屈な方法と、少し荒削りだけど面白い方法があったら、後者を選びがちだ",
+    "loadings": {
+      "fun_filter_strength": 0.7,
+      "hack_vs_proper": 0.4,
+      "speed_vs_accuracy": 0.2
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_targeted_011",
+    "text": "興味のないタスクだと5分も集中が持たないが、ハマったら丸一日没頭できる",
+    "loadings": {
+      "flow_orientation": 0.7,
+      "fun_filter_strength": 0.4,
+      "intrinsic_motivation": 0.3
+    },
+    "difficulty": -0.3,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_targeted_012",
+    "text": "数式やアルゴリズムの証明が「美しい」と感じたことがある",
+    "loadings": {
+      "openness_aesthetic": 0.6,
+      "intellectual_curiosity": 0.4,
+      "pattern_recognition": 0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_targeted_013",
+    "text": "Claudeには実装の手を動かすのは全部任せたいが、「何を作るか」は自分で決めたい",
+    "loadings": {
+      "ai_delegation": -0.7,
+      "consume_vs_create": -0.3,
+      "efficiency_suggestion_tolerance": 0.3
+    },
+    "difficulty": -0.5,
+    "discrimination": 1.5
+  },
+  {
+    "question_id": "q_targeted_014",
+    "text": "自分のCLAUDE.mdやhooksの設定を、月に1回以上は見直して改善している",
+    "loadings": {
+      "structural_self_improvement": 0.7,
+      "metacognition": 0.3,
+      "detail_vs_holistic": 0.2
+    },
+    "difficulty": 0.5,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_targeted_015",
+    "text": "有用だとわかっていても「つまらない」と感じたツールや手法は、結局使わなくなる",
+    "loadings": {
+      "fun_filter_strength": 0.7,
+      "intrinsic_motivation": 0.3,
+      "conscientiousness": -0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.3
+  },
+  {
+    "question_id": "q_targeted_016",
+    "text": "没頭して作業していたのに、ふと別のアイデアが浮かぶとそちらに飛びつきたくなる",
+    "loadings": {
+      "flow_orientation": -0.6,
+      "novelty_seeking": 0.5,
+      "fun_filter_strength": 0.3
+    },
+    "difficulty": 0.0,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_targeted_017",
+    "text": "「自分は衝動的に動きがちだ」と自覚していて、それを補う仕組み（リマインダー、ルール化など）を自分で作っている",
+    "loadings": {
+      "metacognition": 0.6,
+      "structural_self_improvement": 0.5,
+      "conscientiousness": -0.2
+    },
+    "difficulty": 0.5,
+    "discrimination": 1.5
+  },
+  {
+    "question_id": "q_targeted_018",
+    "text": "設計図やシステム構成図を見て、そのバランスや対称性に「美しい」と思うことがある",
+    "loadings": {
+      "openness_aesthetic": 0.7,
+      "pattern_recognition": 0.3,
+      "detail_vs_holistic": -0.2
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.2
+  },
+  {
+    "question_id": "q_targeted_019",
+    "text": "Claudeに「この方針で進めます」と言われたとき、根拠を確認せずOKを出すことがある",
+    "loadings": {
+      "ai_delegation": 0.7,
+      "cognitive_closure": 0.3,
+      "trust_threshold": 0.3
+    },
+    "difficulty": 0.3,
+    "discrimination": 1.4
+  },
+  {
+    "question_id": "q_targeted_020",
+    "text": "一つのプロジェクトに20日以上連続で没頭して、他のことが全部後回しになった経験がある",
+    "loadings": {
+      "flow_orientation": 0.8,
+      "fun_filter_strength": 0.3,
+      "mastery_vs_performance": 0.2
+    },
+    "difficulty": 0.5,
+    "discrimination": 1.3
   }
 ]
