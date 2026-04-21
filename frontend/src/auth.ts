@@ -6,8 +6,10 @@
 // 本当のセキュリティは Phase 5 で n8n webhook 側の秘密ヘッダー検証に委ねる。
 
 // 正解パスフレーズの SHA-256 ハッシュ (ハードコード)
+// ハッシュは public に見えるため、パスフレーズ側を 24 バイトの token_urlsafe で強化済み
+// (辞書攻撃・レインボーテーブルで逆引き困難)
 const EXPECTED_HASH =
-  "66f742a8e1405c89c390fc8b1c34e7f07a094139f162902dfe2713b11e12f7b9";
+  "963ac407c95671e72f11b9b1e2987922b4d69da07276bd0d837d33380ab3c5c4";
 
 const STORAGE_KEY = "sp_auth_token";
 
