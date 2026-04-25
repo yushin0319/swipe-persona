@@ -3,6 +3,8 @@
   "name": "swipe-persona-api",
   "main": "src/index.ts",
   "compatibility_date": "2026-04-01",
+  // L15: @sentry/cloudflare が Node.js 互換 API を要求するため
+  "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true
   },
