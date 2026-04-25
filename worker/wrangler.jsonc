@@ -6,6 +6,12 @@
   "observability": {
     "enabled": true
   },
+  // M11: level=error / exception を observability-tail Worker に流して Discord 通知
+  "tail_consumers": [
+    {
+      "service": "observability-tail"
+    }
+  ],
   "d1_databases": [
     {
       "binding": "DB",
