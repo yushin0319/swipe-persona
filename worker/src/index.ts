@@ -11,6 +11,7 @@
 //   (フロントの localStorage に入っているハッシュをそのまま渡す想定)
 
 // data/questions/questions.json を直接参照 (複製を避けて単一情報源を維持)
+import * as Sentry from "@sentry/cloudflare";
 import questionPool from "../../data/questions/questions.json";
 import { queryD1 } from "./lib/d1-wrapper";
 
@@ -18,6 +19,9 @@ interface Env {
 	DB: D1Database;
 	AUTH_TOKEN_HASH: string;
 	CORS_ORIGIN: string;
+	// L15: Sentry エラートラッキング（DSN は wrangler secret、release は CI で git SHA）
+	SENTRY_DSN?: string;
+	SENTRY_RELEASE?: string;
 }
 
 interface Question {
@@ -129,7 +133,8 @@ function validateAnswersPayload(payload: unknown): AnswerInput[] | null {
 	return result;
 }
 
-export default {
+// L15: Sentry でラップ。SENTRY_DSN 未設定なら no-op。
+const handler = {
 	async fetch(request: Request, env: Env): Promise<Response> {
 		const url = new URL(request.url);
 
@@ -190,7 +195,18 @@ export default {
 			return json({ error: "not found" }, 404, env);
 		} catch (e) {
 			console.error("worker error:", e);
+			Sentry.captureException(e);
 			return json({ error: "internal error" }, 500, env);
 		}
 	},
 };
+
+export default Sentry.withSentry(
+	(env: Env) => ({
+		dsn: env.SENTRY_DSN ?? "",
+		release: env.SENTRY_RELEASE ?? undefined,
+		tracesSampleRate: 0.1,
+		enabled: Boolean(env.SENTRY_DSN),
+	}),
+	handler,
+);
