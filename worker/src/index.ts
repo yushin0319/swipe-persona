@@ -180,6 +180,20 @@ const handler = {
 				return json({ answers }, 200, env);
 			}
 
+			// L15-followup: Sentry verify endpoint (認証必須)
+			// 認証通過後に必ず throw → global catch で Sentry に送信される
+			if (
+				request.method === "POST" &&
+				url.pathname === "/api/_sentry-test"
+			) {
+				if (!verifyAuth(request, env)) {
+					return json({ error: "unauthorized" }, 401, env);
+				}
+				throw new Error(
+					"Sentry verification: intentional throw from /api/_sentry-test",
+				);
+			}
+
 			// ヘルスチェック (認証不要)
 			if (request.method === "GET" && url.pathname === "/health") {
 				return json(
